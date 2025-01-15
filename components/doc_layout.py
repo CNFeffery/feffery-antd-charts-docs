@@ -105,6 +105,14 @@ setTimeout(() => {
                                                 ),
                                                 html.A(
                                                     translator.t(
+                                                        'fuc: 实用工具组件库'
+                                                    ),
+                                                    href='https://fuc.feffery.tech/',
+                                                    target='_blank',
+                                                    className='more-components-link',
+                                                ),
+                                                html.A(
+                                                    translator.t(
                                                         'fmc: markdown渲染组件库'
                                                     ),
                                                     href='https://fmc.feffery.tech/',
