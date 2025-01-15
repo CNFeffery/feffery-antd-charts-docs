@@ -2,7 +2,7 @@
 
 简体中文 | [English](./README-en_US.md)
 
-<a href='https://github.com/CNFeffery/feffery-antd-charts-components' target='_blank'>feffery-antd-charts-components</a>在线文档源码
+<a href='https://github.com/CNFeffery/feffery-antd-charts' target='_blank'>feffery-antd-charts-components</a>在线文档源码
 
 ## 1 使用方式
 

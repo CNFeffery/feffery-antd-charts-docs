@@ -2,7 +2,7 @@
 
 [简体中文](./README.md) | English
 
-<a href='https://github.com/CNFeffery/feffery-antd-charts-components' target='_blank'>feffery-antd-charts-components</a> online documentation source code
+<a href='https://github.com/CNFeffery/feffery-antd-charts' target='_blank'>feffery-antd-charts-components</a> online documentation source code
 
 ## 1 Install & Run
 
