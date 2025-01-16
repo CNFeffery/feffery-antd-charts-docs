@@ -7,7 +7,7 @@ def render() -> Component:
     """渲染当前演示用例"""
 
     # 构造演示用例相关内容
-    demo_contents = fact.AntdLine(
+    demo_contents = fact.AntdColumn(
         data=[
             {
                 'date': f'2020-0{i}',
@@ -28,7 +28,7 @@ def code_string() -> list:
     return [
         {
             'code': """
-fact.AntdLine(
+fact.AntdColumn(
     data=[
         {
             'date': f'2020-0{i}',

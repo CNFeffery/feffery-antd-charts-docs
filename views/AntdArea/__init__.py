@@ -7,9 +7,9 @@ from components import doc_layout
 
 def render() -> Component:
     return doc_layout.render(
-        component=fact.AntdLine,
+        component=fact.AntdArea,
         intro=intro.render(),
-        demos=demos.render(component=fact.AntdLine),
+        demos=demos.render(component=fact.AntdArea),
         catalog=demos.demos_config,
         component_props=[
             {
@@ -40,10 +40,10 @@ def render() -> Component:
                     {'name': 'xField'},
                     {'name': 'yField'},
                     {'name': 'seriesField'},
+                    {'name': 'isPercent'},
                     {'name': 'smooth'},
-                    {'name': 'stepType'},
-                    {'name': 'connectNulls'},
                     {'name': 'isStack'},
+                    {'name': 'startOnZero'},
                 ],
             },
             {
@@ -54,8 +54,14 @@ def render() -> Component:
             },
             {
                 'type': 'prop',
-                'name': 'lineStyle',
+                'name': 'areaStyle',
                 'source': 'geometry-style',
+                'description': '视觉配置参数',
+            },
+            {
+                'type': 'prop',
+                'name': 'line',
+                'source': 'base-line',
                 'description': '视觉配置参数',
             },
             {
@@ -105,6 +111,7 @@ def render() -> Component:
                 'description': '交互功能配置',
             },
             {'type': 'prop', 'name': 'state', 'description': '状态样式配置'},
+            {'type': 'prop', 'name': 'pattern', 'description': '填充模式配置'},
             {'type': 'prop', 'name': 'meta', 'description': '字段元配置'},
             {
                 'type': 'props',

@@ -7,9 +7,9 @@ from components import doc_layout
 
 def render() -> Component:
     return doc_layout.render(
-        component=fact.AntdLine,
+        component=fact.AntdColumn,
         intro=intro.render(),
-        demos=demos.render(component=fact.AntdLine),
+        demos=demos.render(component=fact.AntdColumn),
         catalog=demos.demos_config,
         component_props=[
             {
@@ -40,10 +40,21 @@ def render() -> Component:
                     {'name': 'xField'},
                     {'name': 'yField'},
                     {'name': 'seriesField'},
-                    {'name': 'smooth'},
-                    {'name': 'stepType'},
-                    {'name': 'connectNulls'},
+                    {'name': 'groupField', 'source': 'column-groupField'},
                     {'name': 'isStack'},
+                    {'name': 'isGroup', 'source': 'column-isGroup'},
+                    {'name': 'isRange', 'source': 'column-isRange'},
+                    {'name': 'isPercent', 'source': 'column-isPercent'},
+                    {
+                        'name': 'intervalPadding',
+                        'source': 'column-intervalPadding',
+                    },
+                    {'name': 'dodgePadding', 'source': 'column-dodgePadding'},
+                    {'name': 'minColumnWidth'},
+                    {'name': 'maxColumnWidth'},
+                    {'name': 'columnBackground'},
+                    {'name': 'columnWidthRatio'},
+                    {'name': 'marginRatio', 'source': 'column-marginRatio'},
                 ],
             },
             {
@@ -54,15 +65,19 @@ def render() -> Component:
             },
             {
                 'type': 'prop',
-                'name': 'lineStyle',
+                'name': 'columnStyle',
                 'source': 'geometry-style',
                 'description': '视觉配置参数',
             },
             {
                 'type': 'prop',
-                'name': 'point',
-                'source': 'base-point',
-                'description': '视觉配置参数',
+                'name': 'conversionTag',
+                'description': '特殊功能参数',
+            },
+            {
+                'type': 'prop',
+                'name': 'connectedArea',
+                'description': '特殊功能参数',
             },
             {
                 'type': 'prop',
@@ -105,13 +120,15 @@ def render() -> Component:
                 'description': '交互功能配置',
             },
             {'type': 'prop', 'name': 'state', 'description': '状态样式配置'},
+            {'type': 'prop', 'name': 'pattern', 'description': '填充模式配置'},
+            {'type': 'prop', 'name': 'scrollbar', 'description': '滚动条配置'},
             {'type': 'prop', 'name': 'meta', 'description': '字段元配置'},
             {
                 'type': 'props',
                 'name': '事件监听属性',
                 'props': [
                     {'name': 'recentlyTooltipChangeRecord'},
-                    {'name': 'recentlyPointClickRecord'},
+                    {'name': 'recentlyColumnClickRecord'},
                     {'name': 'recentlyLegendInfo'},
                 ],
             },

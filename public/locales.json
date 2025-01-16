@@ -120,6 +120,18 @@
         },
         "快捷渲染折线图。": {
             "en-us": "Quickly render a line chart."
+        },
+        "AntdArea 面积图": {
+            "en-us": "AntdArea"
+        },
+        "快捷渲染面积图。": {
+            "en-us": "Quickly render a area chart."
+        },
+        "AntdColumn 柱状图": {
+            "en-us": "AntdColumn"
+        },
+        "快捷渲染柱状图。": {
+            "en-us": "Quickly render a column chart."
         }
     }
 }

@@ -105,6 +105,24 @@ class AppConfig:
                                     'href': '/AntdLine',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdArea',
+                                    'name': '/AntdArea',
+                                    'title': translator.t('AntdArea 面积图'),
+                                    'href': '/AntdArea',
+                                },
+                            },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdColumn',
+                                    'name': '/AntdColumn',
+                                    'title': translator.t('AntdColumn 柱状图'),
+                                    'href': '/AntdColumn',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -132,6 +150,8 @@ class AppConfig:
     # 侧边菜单栏key值 -> 展开项节点key值数组
     side_menu_expand_keys = {
         '/AntdLine': ['统计图表'],
+        '/AntdArea': ['统计图表'],
+        '/AntdColumn': ['统计图表'],
     }
 
 
