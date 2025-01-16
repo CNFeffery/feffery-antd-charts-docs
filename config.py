@@ -123,6 +123,15 @@ class AppConfig:
                                     'href': '/AntdColumn',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdBar',
+                                    'name': '/AntdBar',
+                                    'title': translator.t('AntdBar 条形图'),
+                                    'href': '/AntdBar',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -152,6 +161,7 @@ class AppConfig:
         '/AntdLine': ['统计图表'],
         '/AntdArea': ['统计图表'],
         '/AntdColumn': ['统计图表'],
+        '/AntdBar': ['统计图表'],
     }
 
 

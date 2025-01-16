@@ -132,6 +132,12 @@
         },
         "快捷渲染柱状图。": {
             "en-us": "Quickly render a column chart."
+        },
+        "AntdBar 条形图": {
+            "en-us": "AntdBar"
+        },
+        "快捷渲染条形图。": {
+            "en-us": "Quickly render a bar chart."
         }
     }
 }
