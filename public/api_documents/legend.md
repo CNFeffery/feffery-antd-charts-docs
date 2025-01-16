@@ -30,11 +30,11 @@
 
       图例文字样式，具体参数请参考[样式配置项](https://fact.feffery.tech/style)
 
-  - **offsetX** *int*或*float*型*
+  - **offsetX** *int*或*float*型
 
     图例整体在水平方向上的像素偏移
 
-  - **offsetY** *int*或*float*型*
+  - **offsetY** *int*或*float*型
 
     图例整体在垂直方向上的像素偏移
 

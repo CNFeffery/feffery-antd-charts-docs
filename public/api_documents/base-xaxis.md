@@ -138,7 +138,7 @@
 
       刻度线像素长度
 
-  - **subTickLine** *dict*型**
+  - **subTickLine** *dict*型
 
     配置坐标轴子刻度线，支持的键值对属性有：
 
