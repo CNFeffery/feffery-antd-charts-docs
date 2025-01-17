@@ -17,6 +17,7 @@ def render() -> Component:
         ],
         colorField='type',
         angleField='x',
+        radius=0.9,
     )
 
     return demo_contents
@@ -38,6 +39,7 @@ fact.AntdPie(
     ],
     colorField='type',
     angleField='x',
+    radius=0.9,
 )
 """
         }
