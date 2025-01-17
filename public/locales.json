@@ -138,6 +138,12 @@
         },
         "快捷渲染条形图。": {
             "en-us": "Quickly render a bar chart."
+        },
+        "AntdPie 饼图": {
+            "en-us": "AntdPie"
+        },
+        "快捷渲染饼图。": {
+            "en-us": "Quickly render a pie chart."
         }
     }
 }

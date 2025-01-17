@@ -3,4 +3,5 @@ from . import (
     AntdArea,  # noqa: F401
     AntdColumn,  # noqa: F401
     AntdBar,  # noqa: F401
+    AntdPie,  # noqa: F401
 )
