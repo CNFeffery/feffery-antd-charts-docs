@@ -4,6 +4,7 @@ from dash.dependencies import Component
 from . import (
     basic_usage,  # noqa: F401
     smooth,  # noqa: F401
+    custom_point,  # noqa: F401
 )
 from components import demos_render
 
@@ -23,6 +24,11 @@ def demos_config() -> list:
             'path': 'smooth',
             'title': '平滑折线',
             'description': '设置参数`smooth=True`启用平滑折线。',
+        },
+        {
+            'path': 'custom_point',
+            'title': '折点自定义配置',
+            'description': '通过参数`point`对折点进行自定义配置。',
         },
     ]
 
