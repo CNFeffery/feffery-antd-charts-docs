@@ -4,4 +4,5 @@ from . import (
     AntdColumn,  # noqa: F401
     AntdBar,  # noqa: F401
     AntdPie,  # noqa: F401
+    AntdDualAxes,  # noqa: F401
 )

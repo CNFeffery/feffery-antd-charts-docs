@@ -141,6 +141,17 @@ class AppConfig:
                                     'href': '/AntdPie',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdDualAxes',
+                                    'name': '/AntdDualAxes',
+                                    'title': translator.t(
+                                        'AntdDualAxes 双轴图'
+                                    ),
+                                    'href': '/AntdDualAxes',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -172,6 +183,7 @@ class AppConfig:
         '/AntdColumn': ['统计图表'],
         '/AntdBar': ['统计图表'],
         '/AntdPie': ['统计图表'],
+        '/AntdDualAxes': ['统计图表'],
     }
 
 
