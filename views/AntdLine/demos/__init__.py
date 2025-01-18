@@ -7,6 +7,7 @@ from . import (
     custom_point,  # noqa: F401
     slider,  # noqa: F401
     series,  # noqa: F401
+    step,  # noqa: F401
 )
 from components import demos_render
 
@@ -41,6 +42,11 @@ def demos_config() -> list:
             'path': 'series',
             'title': '分组折线',
             'description': '设置参数`seriesField`指定分组字段。',
+        },
+        {
+            'path': 'step',
+            'title': '阶梯折线图',
+            'description': '通过参数`stepType`配置阶梯折线图。',
         },
     ]
 
