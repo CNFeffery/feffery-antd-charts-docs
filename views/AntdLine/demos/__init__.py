@@ -6,6 +6,7 @@ from . import (
     smooth,  # noqa: F401
     custom_point,  # noqa: F401
     slider,  # noqa: F401
+    series,  # noqa: F401
 )
 from components import demos_render
 
@@ -35,6 +36,11 @@ def demos_config() -> list:
             'path': 'slider',
             'title': '开启缩略轴',
             'description': '通过参数`slider`开启缩略轴相关功能。',
+        },
+        {
+            'path': 'series',
+            'title': '分组折线',
+            'description': '设置参数`seriesField`指定分组字段。',
         },
     ]
 
