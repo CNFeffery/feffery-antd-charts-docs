@@ -5,6 +5,7 @@ from . import (
     basic_usage,  # noqa: F401
     smooth,  # noqa: F401
     custom_point,  # noqa: F401
+    slider,  # noqa: F401
 )
 from components import demos_render
 
@@ -29,6 +30,11 @@ def demos_config() -> list:
             'path': 'custom_point',
             'title': '折点自定义配置',
             'description': '通过参数`point`对折点进行自定义配置。',
+        },
+        {
+            'path': 'slider',
+            'title': '开启缩略轴',
+            'description': '通过参数`slider`开启缩略轴相关功能。',
         },
     ]
 
