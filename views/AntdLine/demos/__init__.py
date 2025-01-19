@@ -8,6 +8,8 @@ from . import (
     slider,  # noqa: F401
     series,  # noqa: F401
     step,  # noqa: F401
+    color,  # noqa: F401
+    color_series,  # noqa: F401
 )
 from components import demos_render
 
@@ -47,6 +49,18 @@ def demos_config() -> list:
             'path': 'step',
             'title': '阶梯折线图',
             'description': '通过参数`stepType`配置阶梯折线图。',
+        },
+        {
+            'path': 'color',
+            'title': '单折线',
+            'description': '通过参数`color`自定义单折线颜色。',
+            'group': '自定义颜色',
+        },
+        {
+            'path': 'color_series',
+            'title': '分组折线',
+            'description': '通过参数`color`自定义分组折线颜色。',
+            'group': '自定义颜色',
         },
     ]
 
