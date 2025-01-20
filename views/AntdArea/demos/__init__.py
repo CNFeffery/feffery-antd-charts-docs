@@ -3,6 +3,7 @@ from dash.dependencies import Component
 
 from . import (
     basic_usage,  # noqa: F401
+    gradient,  # noqa: F401
 )
 from components import demos_render
 
@@ -17,6 +18,11 @@ def demos_config() -> list:
             'path': 'basic_usage',
             'title': t('基础使用'),
             'description': '最基础的面积图。',
+        },
+        {
+            'path': 'gradient',
+            'title': '渐变填充',
+            'description': '通过参数`areaStyle`实现渐变色填充。',
         },
     ]
 
