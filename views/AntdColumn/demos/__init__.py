@@ -13,6 +13,7 @@ from . import (
     group,  # noqa: F401
     stack_and_group,  # noqa: F401
     percent,  # noqa: F401
+    range_column,  # noqa: F401
 )
 from components import demos_render
 
@@ -77,6 +78,11 @@ def demos_config() -> list:
             'path': 'percent',
             'title': '百分比柱状图',
             'description': '针对堆叠柱状图，设置`isPercent=True`启用百分比效果。',
+        },
+        {
+            'path': 'range_column',
+            'title': '区间柱状图',
+            'description': '渲染区间形式的柱状图。',
         },
     ]
 
