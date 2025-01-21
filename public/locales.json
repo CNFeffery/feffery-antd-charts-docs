@@ -144,6 +144,12 @@
         },
         "快捷渲染饼图。": {
             "en-us": "Quickly render a pie chart."
+        },
+        "AntdDualAxes 双轴图": {
+            "en-us": "AntdDualAxes"
+        },
+        "快捷渲染双轴图。": {
+            "en-us": "Quickly render a dual axis chart."
         }
     }
 }
