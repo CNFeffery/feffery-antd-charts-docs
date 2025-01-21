@@ -3,6 +3,7 @@ from dash.dependencies import Component
 
 from . import (
     basic_usage,  # noqa: F401
+    meta_alias,  # noqa: F401
 )
 from components import demos_render
 
@@ -17,6 +18,11 @@ def demos_config() -> list:
             'path': 'basic_usage',
             'title': t('基础使用'),
             'description': '最基础的股票图。',
+        },
+        {
+            'path': 'meta_alias',
+            'title': '字段别名',
+            'description': '通过`meta`参数配置关键字段在图表中显示的别名。',
         },
     ]
 
