@@ -4,6 +4,7 @@ from dash.dependencies import Component
 from . import (
     basic_usage,  # noqa: F401
     slider,  # noqa: F401
+    scrollbar,  # noqa: F401
 )
 from components import demos_render
 
@@ -23,6 +24,11 @@ def demos_config() -> list:
             'path': 'slider',
             'title': '开启缩略轴',
             'description': '通过参数`slider`开启缩略轴相关功能。',
+        },
+        {
+            'path': 'scrollbar',
+            'title': '开启滚动条',
+            'description': '通过参数`scrollbar`开启滚动条。',
         },
     ]
 
