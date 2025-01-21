@@ -4,6 +4,7 @@ from dash.dependencies import Component
 from . import (
     basic_usage,  # noqa: F401
     meta_alias,  # noqa: F401
+    slider,  # noqa: F401
 )
 from components import demos_render
 
@@ -23,6 +24,11 @@ def demos_config() -> list:
             'path': 'meta_alias',
             'title': '字段别名',
             'description': '通过`meta`参数配置关键字段在图表中显示的别名。',
+        },
+        {
+            'path': 'slider',
+            'title': '开启缩略轴',
+            'description': '通过参数`slider`开启缩略轴相关功能。',
         },
     ]
 
