@@ -5,6 +5,7 @@ from . import (
     basic_usage,  # noqa: F401
     meta_alias,  # noqa: F401
     slider,  # noqa: F401
+    custom_legend,  # noqa: F401
 )
 from components import demos_render
 
@@ -29,6 +30,11 @@ def demos_config() -> list:
             'path': 'slider',
             'title': '开启缩略轴',
             'description': '通过参数`slider`开启缩略轴相关功能。',
+        },
+        {
+            'path': 'custom_legend',
+            'title': '自定义图例',
+            'description': '通过参数`legend`自定义图例，譬如将默认的英文图例项名称替换为中文。',
         },
     ]
 
