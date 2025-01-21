@@ -5,6 +5,7 @@ from . import (
     basic_usage,  # noqa: F401
     gradient,  # noqa: F401
     slider,  # noqa: F401
+    stack,  # noqa: F401
 )
 from components import demos_render
 
@@ -29,6 +30,11 @@ def demos_config() -> list:
             'path': 'slider',
             'title': '开启缩略轴',
             'description': '通过参数`slider`开启缩略轴相关功能。',
+        },
+        {
+            'path': 'stack',
+            'title': '堆积面积图',
+            'description': '针对多系列数据，通过参数`seriesField`设置分组字段，自动开启堆叠效果。',
         },
     ]
 
