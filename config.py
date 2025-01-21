@@ -193,6 +193,7 @@ class AppConfig:
         '/AntdBar': ['统计图表'],
         '/AntdPie': ['统计图表'],
         '/AntdDualAxes': ['统计图表'],
+        '/AntdStock': ['统计图表'],
     }
 
 
