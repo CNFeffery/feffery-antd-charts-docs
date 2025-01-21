@@ -3,6 +3,7 @@ from dash.dependencies import Component
 
 from . import (
     basic_usage,  # noqa: F401
+    label,  # noqa: F401
     slider,  # noqa: F401
     scrollbar,  # noqa: F401
     conversion_tag,  # noqa: F401
@@ -22,6 +23,11 @@ def demos_config() -> list:
             'path': 'basic_usage',
             'title': t('基础使用'),
             'description': '最基础的柱状图。',
+        },
+        {
+            'path': 'label',
+            'title': '添加数值标签',
+            'description': '通过参数`label`添加数值标签。',
         },
         {
             'path': 'slider',
