@@ -6,6 +6,7 @@ from . import (
     gradient,  # noqa: F401
     slider,  # noqa: F401
     stack,  # noqa: F401
+    percent,  # noqa: F401
 )
 from components import demos_render
 
@@ -35,6 +36,11 @@ def demos_config() -> list:
             'path': 'stack',
             'title': '堆积面积图',
             'description': '针对多系列数据，通过参数`seriesField`设置分组字段，自动开启堆叠效果。',
+        },
+        {
+            'path': 'percent',
+            'title': '百分比面积图',
+            'description': '针对多系列数据，设置`isPercent=True`启用百分比面积图。',
         },
     ]
 
