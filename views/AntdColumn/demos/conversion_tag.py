@@ -1,4 +1,3 @@
-import random
 import feffery_antd_charts as fact
 from dash.dependencies import Component
 

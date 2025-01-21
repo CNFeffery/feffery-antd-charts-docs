@@ -6,6 +6,7 @@ from . import (
     slider,  # noqa: F401
     scrollbar,  # noqa: F401
     conversion_tag,  # noqa: F401
+    stack,  # noqa: F401
 )
 from components import demos_render
 
@@ -35,6 +36,11 @@ def demos_config() -> list:
             'path': 'conversion_tag',
             'title': '转换标签',
             'description': '通过参数`conversionTag`添加转换标签。',
+        },
+        {
+            'path': 'stack',
+            'title': '堆叠柱状图',
+            'description': '针对多系列数据，通过参数`seriesField`设置分组字段并设置`isStack=True`后，自动开启堆叠效果。',
         },
     ]
 
