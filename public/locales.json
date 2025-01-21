@@ -150,6 +150,12 @@
         },
         "快捷渲染双轴图。": {
             "en-us": "Quickly render a dual axis chart."
+        },
+        "AntdStock 股票图": {
+            "en-us": "AntdStock"
+        },
+        "快捷渲染股票图。": {
+            "en-us": "Quickly render a stock chart."
         }
     }
 }

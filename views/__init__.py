@@ -5,4 +5,5 @@ from . import (
     AntdBar,  # noqa: F401
     AntdPie,  # noqa: F401
     AntdDualAxes,  # noqa: F401
+    AntdStock,  # noqa: F401
 )

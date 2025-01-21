@@ -152,6 +152,15 @@ class AppConfig:
                                     'href': '/AntdDualAxes',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdStock',
+                                    'name': '/AntdStock',
+                                    'title': translator.t('AntdStock 股票图'),
+                                    'href': '/AntdStock',
+                                },
+                            },
                         ],
                     },
                 ],
