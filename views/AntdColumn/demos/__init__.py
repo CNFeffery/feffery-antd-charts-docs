@@ -12,6 +12,7 @@ from . import (
     stack_connect_area,  # noqa: F401
     group,  # noqa: F401
     stack_and_group,  # noqa: F401
+    percent,  # noqa: F401
 )
 from components import demos_render
 
@@ -71,6 +72,11 @@ def demos_config() -> list:
             'path': 'stack_and_group',
             'title': '堆叠分组柱状图',
             'description': '针对具有两个分组字段的多系列数据，同时启用堆叠和分组效果。',
+        },
+        {
+            'path': 'percent',
+            'title': '百分比柱状图',
+            'description': '针对堆叠柱状图，设置`isPercent=True`启用百分比效果。',
         },
     ]
 
