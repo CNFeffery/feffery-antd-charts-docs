@@ -6,6 +6,7 @@ from . import (
     meta_alias,  # noqa: F401
     slider,  # noqa: F401
     custom_legend,  # noqa: F401
+    status_color,  # noqa: F401
 )
 from components import demos_render
 
@@ -35,6 +36,11 @@ def demos_config() -> list:
             'path': 'custom_legend',
             'title': '自定义图例',
             'description': '通过参数`legend`自定义图例，譬如将默认的英文图例项名称替换为中文。',
+        },
+        {
+            'path': 'status_color',
+            'title': '自定义状态颜色：绿涨红跌',
+            'description': '通过参数`risingFill`、`fallingFill`分别控制上涨、下跌对应状态色。',
         },
     ]
 
