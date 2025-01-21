@@ -7,6 +7,7 @@ from . import (
     slider,  # noqa: F401
     custom_legend,  # noqa: F401
     status_color,  # noqa: F401
+    custom_tooltip_fields,  # noqa: F401
 )
 from components import demos_render
 
@@ -41,6 +42,11 @@ def demos_config() -> list:
             'path': 'status_color',
             'title': '自定义状态颜色：绿涨红跌',
             'description': '通过参数`risingFill`、`fallingFill`分别控制上涨、下跌对应状态色。',
+        },
+        {
+            'path': 'custom_tooltip_fields',
+            'title': '自定义信息框展示字段',
+            'description': '通过参数`tooltip`控制信息框中需要展示的字段。',
         },
     ]
 
