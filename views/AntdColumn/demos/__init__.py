@@ -5,6 +5,7 @@ from . import (
     basic_usage,  # noqa: F401
     slider,  # noqa: F401
     scrollbar,  # noqa: F401
+    conversion_tag,  # noqa: F401
 )
 from components import demos_render
 
@@ -29,6 +30,11 @@ def demos_config() -> list:
             'path': 'scrollbar',
             'title': '开启滚动条',
             'description': '通过参数`scrollbar`开启滚动条。',
+        },
+        {
+            'path': 'conversion_tag',
+            'title': '转换标签',
+            'description': '通过参数`conversionTag`添加转换标签。',
         },
     ]
 
