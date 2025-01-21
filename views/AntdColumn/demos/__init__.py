@@ -11,6 +11,7 @@ from . import (
     stack,  # noqa: F401
     stack_connect_area,  # noqa: F401
     group,  # noqa: F401
+    stack_and_group,  # noqa: F401
 )
 from components import demos_render
 
@@ -65,6 +66,11 @@ def demos_config() -> list:
             'path': 'group',
             'title': '分组柱状图',
             'description': '针对多系列数据，通过参数`seriesField`设置分组字段并设置`isGroup=True`后，自动开启分组效果。',
+        },
+        {
+            'path': 'stack_and_group',
+            'title': '堆叠分组柱状图',
+            'description': '针对具有两个分组字段的多系列数据，同时启用堆叠和分组效果。',
         },
     ]
 
