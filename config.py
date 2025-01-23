@@ -170,6 +170,17 @@ class AppConfig:
                                             'href': '/AntdTinyLine',
                                         },
                                     },
+                                    {
+                                        'component': 'Item',
+                                        'props': {
+                                            'key': '/AntdTinyArea',
+                                            'name': '/AntdTinyArea',
+                                            'title': translator.t(
+                                                'AntdTinyArea 迷你面积图'
+                                            ),
+                                            'href': '/AntdTinyArea',
+                                        },
+                                    },
                                 ],
                             },
                             {
@@ -215,6 +226,7 @@ class AppConfig:
         '/AntdDualAxes': ['统计图表'],
         '/AntdStock': ['统计图表'],
         '/AntdTinyLine': ['统计图表', '迷你图'],
+        '/AntdTinyArea': ['统计图表', '迷你图'],
     }
 
 
