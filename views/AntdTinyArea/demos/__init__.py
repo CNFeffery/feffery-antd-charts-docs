@@ -3,6 +3,7 @@ from dash.dependencies import Component
 
 from . import (
     basic_usage,  # noqa: F401
+    non_gradient,  # noqa: F401
     pattern,  # noqa: F401
     line_annotation,  # noqa: F401
 )
@@ -19,6 +20,11 @@ def demos_config() -> list:
             'path': 'basic_usage',
             'title': t('基础使用'),
             'description': '最基础的迷你面积图。',
+        },
+        {
+            'path': 'non_gradient',
+            'title': '非渐变填充',
+            'description': '通过参数`areaStyle`设置填充色后，默认的渐变填充效果将关闭。',
         },
         {
             'path': 'pattern',
