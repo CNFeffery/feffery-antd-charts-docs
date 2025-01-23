@@ -151,6 +151,15 @@
         "快捷渲染双轴图。": {
             "en-us": "Quickly render a dual axis chart."
         },
+        "迷你图": {
+            "en-us": "Tiny chart"
+        },
+        "AntdTinyLine 迷你折线图": {
+            "en-us": "AntdTinyLine"
+        },
+        "快捷渲染迷你折线图。": {
+            "en-us": "Quickly render a tiny line chart."
+        },
         "AntdStock 股票图": {
             "en-us": "AntdStock"
         },

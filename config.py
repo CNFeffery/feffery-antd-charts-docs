@@ -153,6 +153,26 @@ class AppConfig:
                                 },
                             },
                             {
+                                'component': 'SubMenu',
+                                'props': {
+                                    'key': '迷你图',
+                                    'title': translator.t('迷你图'),
+                                },
+                                'children': [
+                                    {
+                                        'component': 'Item',
+                                        'props': {
+                                            'key': '/AntdTinyLine',
+                                            'name': '/AntdTinyLine',
+                                            'title': translator.t(
+                                                'AntdTinyLine 迷你折线图'
+                                            ),
+                                            'href': '/AntdTinyLine',
+                                        },
+                                    },
+                                ],
+                            },
+                            {
                                 'component': 'Item',
                                 'props': {
                                     'key': '/AntdStock',
@@ -194,6 +214,7 @@ class AppConfig:
         '/AntdPie': ['统计图表'],
         '/AntdDualAxes': ['统计图表'],
         '/AntdStock': ['统计图表'],
+        '/AntdTinyLine': ['统计图表', '迷你图'],
     }
 
 
