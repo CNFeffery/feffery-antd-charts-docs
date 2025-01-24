@@ -146,6 +146,7 @@ def generate_component_props(component_props: List[dict]) -> str:
     return fac.AntdAccordion(
         items=items,
         accordion=False,
+        size='small',
         style={'background': 'transparent'},
     )
 
