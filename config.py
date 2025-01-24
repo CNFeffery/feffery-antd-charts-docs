@@ -181,6 +181,17 @@ class AppConfig:
                                             'href': '/AntdTinyArea',
                                         },
                                     },
+                                    {
+                                        'component': 'Item',
+                                        'props': {
+                                            'key': '/AntdTinyColumn',
+                                            'name': '/AntdTinyColumn',
+                                            'title': translator.t(
+                                                'AntdTinyColumn 迷你柱状图'
+                                            ),
+                                            'href': '/AntdTinyColumn',
+                                        },
+                                    },
                                 ],
                             },
                             {
@@ -227,6 +238,7 @@ class AppConfig:
         '/AntdStock': ['统计图表'],
         '/AntdTinyLine': ['统计图表', '迷你图'],
         '/AntdTinyArea': ['统计图表', '迷你图'],
+        '/AntdTinyColumn': ['统计图表', '迷你图'],
     }
 
 

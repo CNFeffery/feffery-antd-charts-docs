@@ -166,6 +166,12 @@
         "快捷渲染迷你面积图。": {
             "en-us": "Quickly render a tiny area chart."
         },
+        "AntdTinyColumn 迷你柱状图": {
+            "en-us": "AntdTinyColumn"
+        },
+        "快捷渲染迷你柱状图。": {
+            "en-us": "Quickly render a tiny column chart."
+        },
         "AntdStock 股票图": {
             "en-us": "AntdStock"
         },

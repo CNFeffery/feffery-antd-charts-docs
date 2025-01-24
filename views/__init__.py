@@ -7,5 +7,6 @@ from . import (
     AntdDualAxes,  # noqa: F401
     AntdTinyLine,  # noqa: F401
     AntdTinyArea,  # noqa: F401
+    AntdTinyColumn,  # noqa: F401
     AntdStock,  # noqa: F401
 )
