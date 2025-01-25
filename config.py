@@ -192,6 +192,17 @@ class AppConfig:
                                             'href': '/AntdTinyColumn',
                                         },
                                     },
+                                    {
+                                        'component': 'Item',
+                                        'props': {
+                                            'key': '/AntdProgress',
+                                            'name': '/AntdProgress',
+                                            'title': translator.t(
+                                                'AntdProgress 进度条图'
+                                            ),
+                                            'href': '/AntdProgress',
+                                        },
+                                    },
                                 ],
                             },
                             {
@@ -239,6 +250,7 @@ class AppConfig:
         '/AntdTinyLine': ['统计图表', '迷你图'],
         '/AntdTinyArea': ['统计图表', '迷你图'],
         '/AntdTinyColumn': ['统计图表', '迷你图'],
+        '/AntdProgress': ['统计图表', '迷你图'],
     }
 
 

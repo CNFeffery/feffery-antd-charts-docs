@@ -8,5 +8,6 @@ from . import (
     AntdTinyLine,  # noqa: F401
     AntdTinyArea,  # noqa: F401
     AntdTinyColumn,  # noqa: F401
+    AntdProgress,  # noqa: F401
     AntdStock,  # noqa: F401
 )
