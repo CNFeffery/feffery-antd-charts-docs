@@ -3,6 +3,7 @@ from dash.dependencies import Component
 
 from . import (
     basic_usage,  # noqa: F401
+    custom,  # noqa: F401
 )
 from components import demos_render
 
@@ -16,8 +17,13 @@ def demos_config() -> list:
         {
             'path': 'basic_usage',
             'title': t('基础使用'),
-            'description': '最基础的进度条图。',
-        }
+            'description': '最基础的进度环图。',
+        },
+        {
+            'path': 'custom',
+            'title': '外观调整',
+            'description': '自定义进度环的更多外观配置。',
+        },
     ]
 
 
