@@ -203,6 +203,17 @@ class AppConfig:
                                             'href': '/AntdProgress',
                                         },
                                     },
+                                    {
+                                        'component': 'Item',
+                                        'props': {
+                                            'key': '/AntdRingProgress',
+                                            'name': '/AntdRingProgress',
+                                            'title': translator.t(
+                                                'AntdRingProgress 进度环图'
+                                            ),
+                                            'href': '/AntdRingProgress',
+                                        },
+                                    },
                                 ],
                             },
                             {
@@ -251,6 +262,7 @@ class AppConfig:
         '/AntdTinyArea': ['统计图表', '迷你图'],
         '/AntdTinyColumn': ['统计图表', '迷你图'],
         '/AntdProgress': ['统计图表', '迷你图'],
+        '/AntdRingProgress': ['统计图表', '迷你图'],
     }
 
 

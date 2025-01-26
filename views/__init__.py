@@ -9,5 +9,6 @@ from . import (
     AntdTinyArea,  # noqa: F401
     AntdTinyColumn,  # noqa: F401
     AntdProgress,  # noqa: F401
+    AntdRingProgress,  # noqa: F401
     AntdStock,  # noqa: F401
 )

@@ -178,6 +178,12 @@
         "快捷渲染进度条图。": {
             "en-us": "Quickly render a progress bar chart."
         },
+        "AntdRingProgress 进度环图": {
+            "en-us": "AntdRingProgress"
+        },
+        "快捷渲染进度环图。": {
+            "en-us": "Quickly render a progress ring chart."
+        },
         "AntdStock 股票图": {
             "en-us": "AntdStock"
         },
