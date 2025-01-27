@@ -4,6 +4,7 @@ from dash.dependencies import Component
 from . import (
     basic_usage,  # noqa: F401
     y_field_as_series,  # noqa: F401
+    custom_color,  # noqa: F401
 )
 from components import demos_render
 
@@ -23,6 +24,11 @@ def demos_config() -> list:
             'path': 'y_field_as_series',
             'title': 'y轴字段作为分组字段',
             'description': '`yField`和`seriesField`参数相同时，每个条形将进行颜色区分。',
+        },
+        {
+            'path': 'custom_color',
+            'title': '自定义条形颜色',
+            'description': '通过参数`color`自定义控制条形颜色。',
         },
     ]
 
