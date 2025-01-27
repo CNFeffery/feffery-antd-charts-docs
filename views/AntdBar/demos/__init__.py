@@ -3,6 +3,7 @@ from dash.dependencies import Component
 
 from . import (
     basic_usage,  # noqa: F401
+    y_field_as_series,  # noqa: F401
 )
 from components import demos_render
 
@@ -17,6 +18,11 @@ def demos_config() -> list:
             'path': 'basic_usage',
             'title': t('基础使用'),
             'description': '最基础的条形图。',
+        },
+        {
+            'path': 'y_field_as_series',
+            'title': 'y轴字段作为分组字段',
+            'description': '`yField`和`seriesField`参数相同时，每个条形将进行颜色区分。',
         },
     ]
 
