@@ -1,5 +1,5 @@
-dash>=2.18.2
-feffery_antd_charts>=0.1.4
+dash==2.18.2
+feffery_antd_charts==0.1.5
 feffery_antd_components>=0.3.13
 feffery_dash_utils>=0.1.5
 feffery_markdown_components>=0.3.0
