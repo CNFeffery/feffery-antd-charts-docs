@@ -5,6 +5,7 @@ from . import (
     basic_usage,  # noqa: F401
     y_field_as_series,  # noqa: F401
     custom_color,  # noqa: F401
+    scrollbar,  # noqa: F401
 )
 from components import demos_render
 
@@ -29,6 +30,11 @@ def demos_config() -> list:
             'path': 'custom_color',
             'title': '自定义条形颜色',
             'description': '通过参数`color`自定义控制条形颜色。',
+        },
+        {
+            'path': 'scrollbar',
+            'title': '开启滚动条',
+            'description': '通过参数`scrollbar`开启滚动条。',
         },
     ]
 
