@@ -10,6 +10,7 @@ from . import (
     bar_background,  # noqa: F401
     stack,  # noqa: F401
     group,  # noqa: F401
+    percent,  # noqa: F401
 )
 from components import demos_render
 
@@ -59,6 +60,11 @@ def demos_config() -> list:
             'path': 'group',
             'title': '分组条形图',
             'description': '针对多系列数据，通过参数`seriesField`设置分组字段并设置`isGroup=True`后，自动开启分组效果。',
+        },
+        {
+            'path': 'percent',
+            'title': '百分比条形图',
+            'description': '针对堆叠条形图，设置`isPercent=True`启用百分比效果。',
         },
     ]
 
