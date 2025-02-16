@@ -7,6 +7,7 @@ from . import (
     custom_color,  # noqa: F401
     scrollbar,  # noqa: F401
     conversion_tag,  # noqa: F401
+    bar_background,  # noqa: F401
 )
 from components import demos_render
 
@@ -41,6 +42,11 @@ def demos_config() -> list:
             'path': 'conversion_tag',
             'title': '转换标签',
             'description': '通过参数`conversionTag`添加转换标签。',
+        },
+        {
+            'path': 'bar_background',
+            'title': '条形背景',
+            'description': '通过参数`barBackground`自定义条形背景。',
         },
     ]
 
