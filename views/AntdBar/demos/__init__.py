@@ -8,6 +8,7 @@ from . import (
     scrollbar,  # noqa: F401
     conversion_tag,  # noqa: F401
     bar_background,  # noqa: F401
+    stack,  # noqa: F401
 )
 from components import demos_render
 
@@ -47,6 +48,11 @@ def demos_config() -> list:
             'path': 'bar_background',
             'title': '条形背景',
             'description': '通过参数`barBackground`自定义条形背景。',
+        },
+        {
+            'path': 'stack',
+            'title': '堆叠条形图',
+            'description': '针对多系列数据，通过参数`seriesField`设置分组字段并设置`isStack=True`后，自动开启堆叠效果。',
         },
     ]
 
