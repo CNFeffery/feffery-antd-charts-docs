@@ -3,6 +3,7 @@ from dash.dependencies import Component
 
 from . import (
     basic_usage,  # noqa: F401
+    spider_label,  # noqa: F401
 )
 from components import demos_render
 
@@ -17,6 +18,11 @@ def demos_config() -> list:
             'path': 'basic_usage',
             'title': t('基础使用'),
             'description': '最基础的饼图。',
+        },
+        {
+            'path': 'spider_label',
+            'title': '蜘蛛型标签布局',
+            'description': '通过参数`label`配置使用蜘蛛型标签布局。',
         },
     ]
 
