@@ -7,6 +7,7 @@ from . import (
     inner_label,  # noqa: F401
     custom_label_content,  # noqa: F401
     angle_range,  # noqa: F401
+    donut,  # noqa: F401
 )
 from components import demos_render
 
@@ -41,6 +42,11 @@ def demos_config() -> list:
             'path': 'angle_range',
             'title': '设置角度范围',
             'description': '通过参数`startAngle`和`endAngle`设置角度范围。',
+        },
+        {
+            'path': 'donut',
+            'title': '环图',
+            'description': '设置参数`innerRadius`启用环图效果。',
         },
     ]
 
