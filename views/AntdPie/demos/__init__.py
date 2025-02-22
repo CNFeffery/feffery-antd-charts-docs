@@ -6,6 +6,7 @@ from . import (
     spider_label,  # noqa: F401
     inner_label,  # noqa: F401
     custom_label_content,  # noqa: F401
+    angle_range,  # noqa: F401
 )
 from components import demos_render
 
@@ -35,6 +36,11 @@ def demos_config() -> list:
             'path': 'custom_label_content',
             'title': '自定义标签内容',
             'description': '通过参数`label.formatter`配置自定义标签内容显示逻辑。',
+        },
+        {
+            'path': 'angle_range',
+            'title': '设置角度范围',
+            'description': '通过参数`startAngle`和`endAngle`设置角度范围。',
         },
     ]
 
