@@ -8,6 +8,7 @@ from . import (
     custom_label_content,  # noqa: F401
     angle_range,  # noqa: F401
     donut,  # noqa: F401
+    donut_statistics_interaction,  # noqa: F401
 )
 from components import demos_render
 
@@ -47,6 +48,11 @@ def demos_config() -> list:
             'path': 'donut',
             'title': '环图',
             'description': '设置参数`innerRadius`启用环图效果。',
+        },
+        {
+            'path': 'donut_statistics_interaction',
+            'title': '环图交互',
+            'description': '通过参数`interactions`添加环图交互动态统计数值功能。',
         },
     ]
 
