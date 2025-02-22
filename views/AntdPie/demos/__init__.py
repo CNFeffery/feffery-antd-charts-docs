@@ -5,6 +5,7 @@ from . import (
     basic_usage,  # noqa: F401
     spider_label,  # noqa: F401
     inner_label,  # noqa: F401
+    custom_label_content,  # noqa: F401
 )
 from components import demos_render
 
@@ -29,6 +30,11 @@ def demos_config() -> list:
             'path': 'inner_label',
             'title': '内部型标签布局',
             'description': '通过参数`label`配置使用内部型标签布局。',
+        },
+        {
+            'path': 'custom_label_content',
+            'title': '自定义标签内容',
+            'description': '通过参数`label.formatter`配置自定义标签内容显示逻辑。',
         },
     ]
 
