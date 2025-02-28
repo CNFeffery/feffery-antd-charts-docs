@@ -4,6 +4,7 @@ from dash.dependencies import Component
 from . import (
     basic_usage,  # noqa: F401
     pyramid,  # noqa: F401
+    dynamic_height,  # noqa: F401
 )
 from components import demos_render
 
@@ -23,6 +24,11 @@ def demos_config() -> list:
             'path': 'pyramid',
             'title': '金字塔型漏斗图',
             'description': "设置参数`shape='pyramid'`渲染金字塔型漏斗图。",
+        },
+        {
+            'path': 'dynamic_height',
+            'title': '动态高度漏斗图',
+            'description': '设置参数`dynamicHeight=True`渲染动态高度漏斗图。',
         },
     ]
 
