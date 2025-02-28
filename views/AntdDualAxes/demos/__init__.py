@@ -4,6 +4,7 @@ from dash.dependencies import Component
 from . import (
     basic_usage,  # noqa: F401
     line_and_column,  # noqa: F401
+    dual_line_style,  # noqa: F401
 )
 from components import demos_render
 
@@ -23,6 +24,11 @@ def demos_config() -> list:
             'path': 'line_and_column',
             'title': '柱线混合',
             'description': '柱体+折线混合双轴图。',
+        },
+        {
+            'path': 'dual_line_style',
+            'title': '折线双轴图自定义样式',
+            'description': '针对折线双轴图，自定义折线样式。',
         },
     ]
 
