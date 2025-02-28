@@ -11,4 +11,5 @@ from . import (
     AntdProgress,  # noqa: F401
     AntdRingProgress,  # noqa: F401
     AntdStock,  # noqa: F401
+    AntdFunnel,  # noqa: F401
 )

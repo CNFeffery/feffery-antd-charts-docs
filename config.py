@@ -225,6 +225,15 @@ class AppConfig:
                                     'href': '/AntdStock',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdFunnel',
+                                    'name': '/AntdFunnel',
+                                    'title': translator.t('AntdFunnel 漏斗图'),
+                                    'href': '/AntdFunnel',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -263,6 +272,7 @@ class AppConfig:
         '/AntdTinyColumn': ['统计图表', '迷你图'],
         '/AntdProgress': ['统计图表', '迷你图'],
         '/AntdRingProgress': ['统计图表', '迷你图'],
+        '/AntdFunnel': ['统计图表'],
     }
 
 
