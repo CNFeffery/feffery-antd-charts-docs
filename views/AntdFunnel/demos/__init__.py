@@ -5,6 +5,7 @@ from . import (
     basic_usage,  # noqa: F401
     pyramid,  # noqa: F401
     dynamic_height,  # noqa: F401
+    compare,  # noqa: F401
 )
 from components import demos_render
 
@@ -29,6 +30,11 @@ def demos_config() -> list:
             'path': 'dynamic_height',
             'title': '动态高度漏斗图',
             'description': '设置参数`dynamicHeight=True`渲染动态高度漏斗图。',
+        },
+        {
+            'path': 'compare',
+            'title': '对比漏斗图',
+            'description': '具有对比功能的漏斗图。',
         },
     ]
 
