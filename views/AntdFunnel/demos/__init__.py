@@ -6,6 +6,7 @@ from . import (
     pyramid,  # noqa: F401
     dynamic_height,  # noqa: F401
     compare,  # noqa: F401
+    facet,  # noqa: F401
 )
 from components import demos_render
 
@@ -35,6 +36,11 @@ def demos_config() -> list:
             'path': 'compare',
             'title': '对比漏斗图',
             'description': '具有对比功能的漏斗图。',
+        },
+        {
+            'path': 'facet',
+            'title': '分面漏斗图',
+            'description': '分面展示不同组的漏斗数据。',
         },
     ]
 
