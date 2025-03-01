@@ -7,6 +7,7 @@ from . import (
     dynamic_height,  # noqa: F401
     compare,  # noqa: F401
     facet,  # noqa: F401
+    transposed,  # noqa: F401
 )
 from components import demos_render
 
@@ -41,6 +42,11 @@ def demos_config() -> list:
             'path': 'facet',
             'title': '分面漏斗图',
             'description': '分面展示不同组的漏斗数据。',
+        },
+        {
+            'path': 'transposed',
+            'title': '转置漏斗图',
+            'description': '设置参数`isTransposed=True`转置展示漏斗图。',
         },
     ]
 
