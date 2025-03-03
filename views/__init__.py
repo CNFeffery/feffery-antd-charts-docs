@@ -12,4 +12,5 @@ from . import (
     AntdRingProgress,  # noqa: F401
     AntdStock,  # noqa: F401
     AntdFunnel,  # noqa: F401
+    AntdSankey,  # noqa: F401
 )

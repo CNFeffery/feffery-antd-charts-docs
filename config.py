@@ -234,6 +234,15 @@ class AppConfig:
                                     'href': '/AntdFunnel',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdSankey',
+                                    'name': '/AntdSankey',
+                                    'title': translator.t('AntdSankey 桑基图'),
+                                    'href': '/AntdSankey',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -273,6 +282,7 @@ class AppConfig:
         '/AntdProgress': ['统计图表', '迷你图'],
         '/AntdRingProgress': ['统计图表', '迷你图'],
         '/AntdFunnel': ['统计图表'],
+        '/AntdSankey': ['统计图表'],
     }
 
 
