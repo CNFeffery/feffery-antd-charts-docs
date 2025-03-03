@@ -4,6 +4,7 @@ from dash.dependencies import Component
 from . import (
     basic_usage,  # noqa: F401
     draggable,  # noqa: F401
+    custom_color,  # noqa: F401
 )
 from components import demos_render
 
@@ -23,6 +24,11 @@ def demos_config() -> list:
             'path': 'draggable',
             'title': '节点可拖拽',
             'description': '设置参数`nodeDraggable=True`开启节点可拖拽调整功能。',
+        },
+        {
+            'path': 'custom_color',
+            'title': '自定义节点颜色',
+            'description': '通过参数`color`自定义要素颜色。',
         },
     ]
 
