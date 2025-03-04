@@ -252,6 +252,15 @@ class AppConfig:
                                     'href': '/AntdChord',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdGauge',
+                                    'name': '/AntdGauge',
+                                    'title': translator.t('AntdGauge 仪表盘'),
+                                    'href': '/AntdGauge',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -293,6 +302,7 @@ class AppConfig:
         '/AntdFunnel': ['统计图表'],
         '/AntdSankey': ['统计图表'],
         '/AntdChord': ['统计图表'],
+        '/AntdGauge': ['统计图表'],
     }
 
 

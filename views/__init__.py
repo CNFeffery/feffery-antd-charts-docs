@@ -14,4 +14,5 @@ from . import (
     AntdFunnel,  # noqa: F401
     AntdSankey,  # noqa: F401
     AntdChord,  # noqa: F401
+    AntdGauge,  # noqa: F401
 )
