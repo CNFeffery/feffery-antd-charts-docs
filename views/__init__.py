@@ -13,4 +13,5 @@ from . import (
     AntdStock,  # noqa: F401
     AntdFunnel,  # noqa: F401
     AntdSankey,  # noqa: F401
+    AntdChord,  # noqa: F401
 )

@@ -243,6 +243,15 @@ class AppConfig:
                                     'href': '/AntdSankey',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdChord',
+                                    'name': '/AntdChord',
+                                    'title': translator.t('AntdChord 和弦图'),
+                                    'href': '/AntdChord',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -283,6 +292,7 @@ class AppConfig:
         '/AntdRingProgress': ['统计图表', '迷你图'],
         '/AntdFunnel': ['统计图表'],
         '/AntdSankey': ['统计图表'],
+        '/AntdChord': ['统计图表'],
     }
 
 
