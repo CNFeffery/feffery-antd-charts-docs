@@ -190,11 +190,23 @@
         "快捷渲染股票图。": {
             "en-us": "Quickly render a stock chart."
         },
+        "AntdFunnel 漏斗图": {
+            "en-us": "AntdFunnel"
+        },
+        "快捷渲染漏斗图。": {
+            "en-us": "Quickly render a funnel chart."
+        },
         "AntdSankey 桑基图": {
             "en-us": "AntdSankey"
         },
         "快捷渲染桑基图。": {
             "en-us": "Quickly render a sankey chart."
+        },
+        "AntdChord 和弦图": {
+            "en-us": "AntdChord"
+        },
+        "快捷渲染和弦图。": {
+            "en-us": "Quickly render a chord chart."
         }
     }
 }
