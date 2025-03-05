@@ -5,6 +5,7 @@ from . import (
     basic_usage,  # noqa: F401
     range_width,  # noqa: F401
     gradient,  # noqa: F401
+    custom_color,  # noqa: F401
 )
 from components import demos_render
 
@@ -29,6 +30,11 @@ def demos_config() -> list:
             'path': 'gradient',
             'title': '渐变填充',
             'description': '通过参数`range`实现辅助圆弧渐变色填充。',
+        },
+        {
+            'path': 'custom_color',
+            'title': '多色仪表盘',
+            'description': '通过参数`range`自定义多色仪表盘。',
         },
     ]
 
