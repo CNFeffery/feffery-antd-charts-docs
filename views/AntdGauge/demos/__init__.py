@@ -4,6 +4,7 @@ from dash.dependencies import Component
 from . import (
     basic_usage,  # noqa: F401
     range_width,  # noqa: F401
+    gradient,  # noqa: F401
 )
 from components import demos_render
 
@@ -23,6 +24,11 @@ def demos_config() -> list:
             'path': 'range_width',
             'title': '设置辅助圆弧宽度',
             'description': '通过参数`range`自定义辅助圆弧宽度。',
+        },
+        {
+            'path': 'gradient',
+            'title': '渐变填充',
+            'description': '通过参数`range`实现辅助圆弧渐变色填充。',
         },
     ]
 
