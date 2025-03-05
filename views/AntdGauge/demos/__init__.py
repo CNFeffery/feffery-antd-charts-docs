@@ -9,6 +9,7 @@ from . import (
     custom_color_gradient,  # noqa: F401
     meter_gauge,  # noqa: F401
     indicator_type_cursor,  # noqa: F401
+    indicator_type_ring_cursor,  # noqa: F401
 )
 from components import demos_render
 
@@ -53,6 +54,12 @@ def demos_config() -> list:
             'path': 'indicator_type_cursor',
             'title': 'cursor类型',
             'description': "使用`'cursor'`类型的指示器。",
+            'group': '其他指示器类型',
+        },
+        {
+            'path': 'indicator_type_ring_cursor',
+            'title': 'ring-cursor类型',
+            'description': "使用`'ring-cursor'`类型的指示器。",
             'group': '其他指示器类型',
         },
     ]
