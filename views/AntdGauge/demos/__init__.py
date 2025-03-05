@@ -7,6 +7,7 @@ from . import (
     gradient,  # noqa: F401
     custom_color,  # noqa: F401
     custom_color_gradient,  # noqa: F401
+    meter_gauge,  # noqa: F401
 )
 from components import demos_render
 
@@ -41,6 +42,11 @@ def demos_config() -> list:
             'path': 'custom_color_gradient',
             'title': '多色渐变仪表盘',
             'description': '通过参数`range`自定义多色渐变仪表盘。',
+        },
+        {
+            'path': 'meter_gauge',
+            'title': '米轨仪表盘',
+            'description': "设置参数`type='meter'`渲染米轨仪表盘。",
         },
     ]
 
