@@ -8,6 +8,7 @@ from . import (
     custom_color,  # noqa: F401
     custom_color_gradient,  # noqa: F401
     meter_gauge,  # noqa: F401
+    indicator_type_cursor,  # noqa: F401
 )
 from components import demos_render
 
@@ -47,6 +48,12 @@ def demos_config() -> list:
             'path': 'meter_gauge',
             'title': '米轨仪表盘',
             'description': "设置参数`type='meter'`渲染米轨仪表盘。",
+        },
+        {
+            'path': 'indicator_type_cursor',
+            'title': 'cursor类型',
+            'description': "使用`'cursor'`类型的指示器。",
+            'group': '其他指示器类型',
         },
     ]
 
