@@ -15,4 +15,5 @@ from . import (
     AntdSankey,  # noqa: F401
     AntdChord,  # noqa: F401
     AntdGauge,  # noqa: F401
+    AntdLiquid,  # noqa: F401
 )

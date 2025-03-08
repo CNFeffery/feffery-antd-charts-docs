@@ -213,6 +213,12 @@
         },
         "快捷渲染仪表盘。": {
             "en-us": "Quickly render a gauge chart."
+        },
+        "AntdLiquid 水波图": {
+            "en-us": "AntdLiquid"
+        },
+        "快捷渲染水波图。": {
+            "en-us": "Quickly render a liquid chart."
         }
     }
 }

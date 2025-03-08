@@ -261,6 +261,15 @@ class AppConfig:
                                     'href': '/AntdGauge',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdLiquid',
+                                    'name': '/AntdLiquid',
+                                    'title': translator.t('AntdLiquid 水波图'),
+                                    'href': '/AntdLiquid',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -303,6 +312,7 @@ class AppConfig:
         '/AntdSankey': ['统计图表'],
         '/AntdChord': ['统计图表'],
         '/AntdGauge': ['统计图表'],
+        '/AntdLiquid': ['统计图表'],
     }
 
 
