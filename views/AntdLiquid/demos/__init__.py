@@ -6,6 +6,7 @@ from . import (
     rect,  # noqa: F401
     diamond,  # noqa: F401
     triangle,  # noqa: F401
+    pin,  # noqa: F401
     pattern,  # noqa: F401
 )
 from components import demos_render
@@ -36,6 +37,11 @@ def demos_config() -> list:
             'path': 'triangle',
             'title': '三角形水波图',
             'description': "设置参数`shape='triangle'`渲染三角形水波图。",
+        },
+        {
+            'path': 'pin',
+            'title': '指针形水波图',
+            'description': "设置参数`shape='pin'`渲染指针形水波图。",
         },
         {
             'path': 'pattern',
