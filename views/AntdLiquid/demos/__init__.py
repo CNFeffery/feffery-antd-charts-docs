@@ -5,6 +5,7 @@ from . import (
     basic_usage,  # noqa: F401
     rect,  # noqa: F401
     diamond,  # noqa: F401
+    pattern,  # noqa: F401
 )
 from components import demos_render
 
@@ -29,6 +30,11 @@ def demos_config() -> list:
             'path': 'diamond',
             'title': '钻石水波图',
             'description': "设置参数`shape='diamond'`渲染钻石水波图。",
+        },
+        {
+            'path': 'pattern',
+            'title': '设置填充贴图',
+            'description': '通过参数`pattern`设置填充贴图。',
         },
     ]
 
