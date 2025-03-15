@@ -270,6 +270,15 @@ class AppConfig:
                                     'href': '/AntdLiquid',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdBullet',
+                                    'name': '/AntdBullet',
+                                    'title': translator.t('AntdBullet 子弹图'),
+                                    'href': '/AntdBullet',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -313,6 +322,7 @@ class AppConfig:
         '/AntdChord': ['统计图表'],
         '/AntdGauge': ['统计图表'],
         '/AntdLiquid': ['统计图表'],
+        '/AntdBullet': ['统计图表'],
     }
 
 

@@ -16,4 +16,5 @@ from . import (
     AntdChord,  # noqa: F401
     AntdGauge,  # noqa: F401
     AntdLiquid,  # noqa: F401
+    AntdBullet,  # noqa: F401
 )

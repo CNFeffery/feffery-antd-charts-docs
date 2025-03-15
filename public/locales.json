@@ -219,6 +219,12 @@
         },
         "快捷渲染水波图。": {
             "en-us": "Quickly render a liquid chart."
+        },
+        "AntdBullet 子弹图": {
+            "en-us": "AntdBullet"
+        },
+        "快捷渲染子弹图。": {
+            "en-us": "Quickly render a bullet chart."
         }
     }
 }
