@@ -4,6 +4,7 @@ from dash.dependencies import Component
 from . import (
     basic_usage,  # noqa: F401
     custom_legend,  # noqa: F401
+    vertical,  # noqa: F401
 )
 from components import demos_render
 
@@ -23,6 +24,11 @@ def demos_config() -> list:
             'path': 'custom_legend',
             'title': '自定义图例',
             'description': '通过参数`legend`为子弹图配置图例。',
+        },
+        {
+            'path': 'vertical',
+            'title': '垂直子弹图',
+            'description': '垂直形式的子弹图。',
         },
     ]
 
