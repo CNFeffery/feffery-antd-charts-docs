@@ -7,6 +7,7 @@ from . import (
     vertical,  # noqa: F401
     color,  # noqa: F401
     stacked,  # noqa: F401
+    grouped,  # noqa: F401
 )
 from components import demos_render
 
@@ -41,6 +42,11 @@ def demos_config() -> list:
             'path': 'stacked',
             'title': '堆叠子弹图',
             'description': '堆叠形式的子弹图。',
+        },
+        {
+            'path': 'grouped',
+            'title': '分组子弹图',
+            'description': '分组形式的子弹图。',
         },
     ]
 
