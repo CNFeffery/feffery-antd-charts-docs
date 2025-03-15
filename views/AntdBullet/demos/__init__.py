@@ -6,6 +6,7 @@ from . import (
     custom_legend,  # noqa: F401
     vertical,  # noqa: F401
     color,  # noqa: F401
+    stacked,  # noqa: F401
 )
 from components import demos_render
 
@@ -35,6 +36,11 @@ def demos_config() -> list:
             'path': 'color',
             'title': '多颜色范围区间',
             'description': '为子弹图配置多个颜色范围区间。',
+        },
+        {
+            'path': 'stacked',
+            'title': '堆叠子弹图',
+            'description': '堆叠形式的子弹图。',
         },
     ]
 
