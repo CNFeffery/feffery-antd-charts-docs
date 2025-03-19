@@ -225,6 +225,12 @@
         },
         "快捷渲染子弹图。": {
             "en-us": "Quickly render a bullet chart."
+        },
+        "AntdScatter 散点图": {
+            "en-us": "AntdScatter"
+        },
+        "快捷渲染散点图。": {
+            "en-us": "Quickly render a scatter chart."
         }
     }
 }

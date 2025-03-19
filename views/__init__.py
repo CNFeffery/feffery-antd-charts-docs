@@ -17,4 +17,5 @@ from . import (
     AntdGauge,  # noqa: F401
     AntdLiquid,  # noqa: F401
     AntdBullet,  # noqa: F401
+    AntdScatter,  # noqa: F401
 )

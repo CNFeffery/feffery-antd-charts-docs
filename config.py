@@ -279,6 +279,15 @@ class AppConfig:
                                     'href': '/AntdBullet',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdScatter',
+                                    'name': '/AntdScatter',
+                                    'title': translator.t('AntdScatter 散点图'),
+                                    'href': '/AntdScatter',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -323,6 +332,7 @@ class AppConfig:
         '/AntdGauge': ['统计图表'],
         '/AntdLiquid': ['统计图表'],
         '/AntdBullet': ['统计图表'],
+        '/AntdScatter': ['统计图表'],
     }
 
 
