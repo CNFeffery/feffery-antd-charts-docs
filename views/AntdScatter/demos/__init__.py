@@ -7,6 +7,7 @@ from . import (
     shape_mapping,  # noqa: F401
     color_and_shape_mapping,  # noqa: F401
     size_mapping,  # noqa: F401
+    label,  # noqa: F401
 )
 from components import demos_render
 
@@ -41,6 +42,11 @@ def demos_config() -> list:
             'path': 'size_mapping',
             'title': '尺寸映射',
             'description': '结合数据和参数`sizeField`、`size`、`sizeLegend`实现尺寸映射相关功能。',
+        },
+        {
+            'path': 'label',
+            'title': '添加数值标签',
+            'description': '通过参数`label`添加数值标签，默认显示`yField`对应值。',
         },
     ]
 
