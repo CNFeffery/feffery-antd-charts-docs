@@ -6,6 +6,7 @@ from . import (
     color_mapping,  # noqa: F401
     shape_mapping,  # noqa: F401
     color_and_shape_mapping,  # noqa: F401
+    size_mapping,  # noqa: F401
 )
 from components import demos_render
 
@@ -35,6 +36,11 @@ def demos_config() -> list:
             'path': 'color_and_shape_mapping',
             'title': '颜色和形状映射',
             'description': '同时进行颜色和形状映射。',
+        },
+        {
+            'path': 'size_mapping',
+            'title': '尺寸映射',
+            'description': '结合数据和参数`sizeField`、`size`、`sizeLegend`实现尺寸映射相关功能。',
         },
     ]
 
