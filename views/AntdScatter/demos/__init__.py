@@ -4,6 +4,7 @@ from dash.dependencies import Component
 from . import (
     basic_usage,  # noqa: F401
     color_mapping,  # noqa: F401
+    shape_mapping,  # noqa: F401
 )
 from components import demos_render
 
@@ -23,6 +24,11 @@ def demos_config() -> list:
             'path': 'color_mapping',
             'title': '颜色映射',
             'description': '结合数据和参数`colorField`实现颜色映射。',
+        },
+        {
+            'path': 'shape_mapping',
+            'title': '形状映射',
+            'description': '结合数据和参数`shapeField`实现形状映射。',
         },
     ]
 
