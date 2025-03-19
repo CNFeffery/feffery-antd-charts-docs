@@ -8,6 +8,7 @@ from . import (
     color_and_shape_mapping,  # noqa: F401
     size_mapping,  # noqa: F401
     label,  # noqa: F401
+    regression_line,  # noqa: F401
 )
 from components import demos_render
 
@@ -47,6 +48,11 @@ def demos_config() -> list:
             'path': 'label',
             'title': '添加数值标签',
             'description': '通过参数`label`添加数值标签，默认显示`yField`对应值。',
+        },
+        {
+            'path': 'regression_line',
+            'title': '添加回归线',
+            'description': '通过参数`regressionLine`添加回归线。',
         },
     ]
 
