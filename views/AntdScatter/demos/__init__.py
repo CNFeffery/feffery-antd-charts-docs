@@ -9,6 +9,7 @@ from . import (
     size_mapping,  # noqa: F401
     label,  # noqa: F401
     regression_line,  # noqa: F401
+    quadrant,  # noqa: F401
 )
 from components import demos_render
 
@@ -53,6 +54,11 @@ def demos_config() -> list:
             'path': 'regression_line',
             'title': '添加回归线',
             'description': '通过参数`regressionLine`添加回归线。',
+        },
+        {
+            'path': 'quadrant',
+            'title': '添加四象限',
+            'description': '通过参数`quadrant`添加四象限。',
         },
     ]
 
