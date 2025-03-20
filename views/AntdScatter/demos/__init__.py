@@ -10,6 +10,7 @@ from . import (
     label,  # noqa: F401
     regression_line,  # noqa: F401
     quadrant,  # noqa: F401
+    bubble_3d,  # noqa: F401
 )
 from components import demos_render
 
@@ -59,6 +60,11 @@ def demos_config() -> list:
             'path': 'quadrant',
             'title': '添加四象限',
             'description': '通过参数`quadrant`添加四象限。',
+        },
+        {
+            'path': 'bubble_3d',
+            'title': '仿3D气泡图',
+            'description': '基于参数`color`、`shape`实现仿3D气泡图。',
         },
     ]
 
