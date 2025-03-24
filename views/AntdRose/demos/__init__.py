@@ -4,6 +4,7 @@ from dash.dependencies import Component
 from . import (
     basic_usage,  # noqa: F401
     series,  # noqa: F401
+    inner_radius,  # noqa: F401
 )
 from components import demos_render
 
@@ -23,6 +24,11 @@ def demos_config() -> list:
             'path': 'series',
             'title': '多系列风玫瑰图',
             'description': '通过参数`seriesField`设置分组字段。',
+        },
+        {
+            'path': 'inner_radius',
+            'title': '设置内部半径',
+            'description': '通过参数`innerRadius`设置内部半径。',
         },
     ]
 
