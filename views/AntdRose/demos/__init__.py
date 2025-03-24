@@ -5,6 +5,7 @@ from . import (
     basic_usage,  # noqa: F401
     series,  # noqa: F401
     inner_radius,  # noqa: F401
+    inner_label,  # noqa: F401
 )
 from components import demos_render
 
@@ -29,6 +30,11 @@ def demos_config() -> list:
             'path': 'inner_radius',
             'title': '设置内部半径',
             'description': '通过参数`innerRadius`设置内部半径。',
+        },
+        {
+            'path': 'inner_label',
+            'title': '使用内部标签',
+            'description': '通过参数`label`控制文字标签在内部显示。',
         },
     ]
 
