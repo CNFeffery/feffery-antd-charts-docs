@@ -8,6 +8,7 @@ from . import (
     inner_label,  # noqa: F401
     stack,  # noqa: F401
     pattern,  # noqa: F401
+    custom_color,  # noqa: F401
 )
 from components import demos_render
 
@@ -47,6 +48,11 @@ def demos_config() -> list:
             'path': 'pattern',
             'title': '带贴图',
             'description': '通过参数`pattern`设置贴图。',
+        },
+        {
+            'path': 'custom_color',
+            'title': '自定义颜色',
+            'description': '通过参数`color`设置自定义颜色，譬如对于排序后的数据，基于透明度变化定义漂亮的渐变色。',
         },
     ]
 
