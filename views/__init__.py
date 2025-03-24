@@ -18,4 +18,5 @@ from . import (
     AntdLiquid,  # noqa: F401
     AntdBullet,  # noqa: F401
     AntdScatter,  # noqa: F401
+    AntdRose,  # noqa: F401
 )

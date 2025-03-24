@@ -288,6 +288,15 @@ class AppConfig:
                                     'href': '/AntdScatter',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdRose',
+                                    'name': '/AntdRose',
+                                    'title': translator.t('AntdRose 风玫瑰图'),
+                                    'href': '/AntdRose',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -333,6 +342,7 @@ class AppConfig:
         '/AntdLiquid': ['统计图表'],
         '/AntdBullet': ['统计图表'],
         '/AntdScatter': ['统计图表'],
+        '/AntdRose': ['统计图表'],
     }
 
 

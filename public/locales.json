@@ -231,6 +231,12 @@
         },
         "快捷渲染散点图。": {
             "en-us": "Quickly render a scatter chart."
+        },
+        "AntdRose 风玫瑰图": {
+            "en-us": "AntdRose"
+        },
+        "快捷渲染风玫瑰图。": {
+            "en-us": "Quickly render a rose chart."
         }
     }
 }
