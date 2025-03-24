@@ -7,6 +7,7 @@ from . import (
     inner_radius,  # noqa: F401
     inner_label,  # noqa: F401
     stack,  # noqa: F401
+    pattern,  # noqa: F401
 )
 from components import demos_render
 
@@ -41,6 +42,11 @@ def demos_config() -> list:
             'path': 'stack',
             'title': '开启堆叠',
             'description': '基于参数`seriesField`、`isStack`实现分组堆叠效果。',
+        },
+        {
+            'path': 'pattern',
+            'title': '带贴图',
+            'description': '通过参数`pattern`设置贴图。',
         },
     ]
 
