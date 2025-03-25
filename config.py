@@ -297,6 +297,15 @@ class AppConfig:
                                     'href': '/AntdRose',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdHeatmap',
+                                    'name': '/AntdHeatmap',
+                                    'title': translator.t('AntdHeatmap 热力图'),
+                                    'href': '/AntdHeatmap',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -343,6 +352,7 @@ class AppConfig:
         '/AntdBullet': ['统计图表'],
         '/AntdScatter': ['统计图表'],
         '/AntdRose': ['统计图表'],
+        '/AntdHeatmap': ['统计图表'],
     }
 
 

@@ -237,6 +237,12 @@
         },
         "快捷渲染风玫瑰图。": {
             "en-us": "Quickly render a rose chart."
+        },
+        "AntdHeatmap 热力图": {
+            "en-us": "AntdHeatmap"
+        },
+        "快捷渲染热力图。": {
+            "en-us": "Quickly render a heatmap chart."
         }
     }
 }

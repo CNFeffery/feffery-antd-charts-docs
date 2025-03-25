@@ -19,4 +19,5 @@ from . import (
     AntdBullet,  # noqa: F401
     AntdScatter,  # noqa: F401
     AntdRose,  # noqa: F401
+    AntdHeatmap,  # noqa: F401
 )
