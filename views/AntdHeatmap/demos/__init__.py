@@ -5,6 +5,7 @@ from . import (
     basic_usage,  # noqa: F401
     custom_color,  # noqa: F401
     circle_shape,  # noqa: F401
+    square_shape,  # noqa: F401
     size,  # noqa: F401
 )
 from components import demos_render
@@ -30,6 +31,11 @@ def demos_config() -> list:
             'path': 'circle_shape',
             'title': '圆形热力图',
             'description': '通过参数`shape`设置热力图为圆形热力图，并配合参数`sizeRatio`控制热力圆点比例大小。',
+        },
+        {
+            'path': 'square_shape',
+            'title': '方形热力图',
+            'description': '通过参数`shape`设置热力图为方形热力图，并配合参数`sizeRatio`控制热力方块比例大小。',
         },
         {
             'path': 'size',
