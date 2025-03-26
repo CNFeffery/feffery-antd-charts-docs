@@ -4,6 +4,7 @@ from dash.dependencies import Component
 from . import (
     basic_usage,  # noqa: F401
     custom_color,  # noqa: F401
+    circle_shape,  # noqa: F401
 )
 from components import demos_render
 
@@ -23,6 +24,11 @@ def demos_config() -> list:
             'path': 'custom_color',
             'title': '自定义颜色映射',
             'description': '通过参数`color`自定义颜色映射方案。',
+        },
+        {
+            'path': 'circle_shape',
+            'title': '圆形热力图',
+            'description': '通过参数`shape`设置热力图为圆形热力图，并配合参数`sizeRatio`控制热力圆点比例大小。',
         },
     ]
 
