@@ -7,6 +7,7 @@ from . import (
     circle_shape,  # noqa: F401
     square_shape,  # noqa: F401
     size,  # noqa: F401
+    polar_coordinate,  # noqa: F401
 )
 from components import demos_render
 
@@ -41,6 +42,11 @@ def demos_config() -> list:
             'path': 'size',
             'title': '尺寸映射',
             'description': '通过参数`sizeField`指定尺寸映射字段。',
+        },
+        {
+            'path': 'polar_coordinate',
+            'title': '极坐标热力图',
+            'description': '通过参数`coordinate`配置使用极坐标系，配合坐标轴配置等参数实现更佳的展示效果。',
         },
     ]
 
