@@ -8,6 +8,7 @@ from . import (
     smooth,  # noqa: F401
     custom_axis_background,  # noqa: F401
     series,  # noqa: F401
+    series_area_fill,  # noqa: F401
 )
 from components import demos_render
 
@@ -47,6 +48,11 @@ def demos_config() -> list:
             'path': 'series',
             'title': '多系列分组',
             'description': '设置参数`seriesField`指定多系列分组字段。',
+        },
+        {
+            'path': 'series_area_fill',
+            'title': '多系列分组+区域填充',
+            'description': '多系列分组型雷达图+区域填充效果。',
         },
     ]
 
