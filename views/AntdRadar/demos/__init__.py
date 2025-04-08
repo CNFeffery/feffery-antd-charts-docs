@@ -3,6 +3,7 @@ from dash.dependencies import Component
 
 from . import (
     basic_usage,  # noqa: F401
+    min_x,  # noqa: F401
 )
 from components import demos_render
 
@@ -17,6 +18,11 @@ def demos_config() -> list:
             'path': 'basic_usage',
             'title': t('基础使用'),
             'description': '最基础的雷达图。',
+        },
+        {
+            'path': 'min_x',
+            'title': '控制半径轴最小值',
+            'description': '通过参数`meta`控制半径轴最小值。',
         },
     ]
 
