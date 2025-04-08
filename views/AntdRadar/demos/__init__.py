@@ -5,6 +5,7 @@ from . import (
     basic_usage,  # noqa: F401
     min_x,  # noqa: F401
     area_fill,  # noqa: F401
+    smooth,  # noqa: F401
 )
 from components import demos_render
 
@@ -29,6 +30,11 @@ def demos_config() -> list:
             'path': 'area_fill',
             'title': '区域填充',
             'description': '通过参数`area`实现区域填充。',
+        },
+        {
+            'path': 'smooth',
+            'title': '平滑曲线',
+            'description': '设置参数`smooth=True`开启平滑曲线效果。',
         },
     ]
 
