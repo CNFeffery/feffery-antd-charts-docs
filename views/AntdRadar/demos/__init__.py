@@ -4,6 +4,7 @@ from dash.dependencies import Component
 from . import (
     basic_usage,  # noqa: F401
     min_x,  # noqa: F401
+    area_fill,  # noqa: F401
 )
 from components import demos_render
 
@@ -23,6 +24,11 @@ def demos_config() -> list:
             'path': 'min_x',
             'title': '控制半径轴最小值',
             'description': '通过参数`meta`控制半径轴最小值。',
+        },
+        {
+            'path': 'area_fill',
+            'title': '区域填充',
+            'description': '通过参数`area`实现区域填充。',
         },
     ]
 
