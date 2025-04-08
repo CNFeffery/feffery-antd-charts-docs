@@ -7,6 +7,7 @@ from . import (
     area_fill,  # noqa: F401
     smooth,  # noqa: F401
     custom_axis_background,  # noqa: F401
+    series,  # noqa: F401
 )
 from components import demos_render
 
@@ -41,6 +42,11 @@ def demos_config() -> list:
             'path': 'custom_axis_background',
             'title': '自定义圈层背景',
             'description': '通过参数`yAxis`自定义圈层背景。',
+        },
+        {
+            'path': 'series',
+            'title': '多系列分组',
+            'description': '设置参数`seriesField`指定多系列分组字段。',
         },
     ]
 
