@@ -306,6 +306,15 @@ class AppConfig:
                                     'href': '/AntdHeatmap',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdRadar',
+                                    'name': '/AntdRadar',
+                                    'title': translator.t('AntdRadar 雷达图'),
+                                    'href': '/AntdRadar',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -353,6 +362,7 @@ class AppConfig:
         '/AntdScatter': ['统计图表'],
         '/AntdRose': ['统计图表'],
         '/AntdHeatmap': ['统计图表'],
+        '/AntdRadar': ['统计图表'],
     }
 
 

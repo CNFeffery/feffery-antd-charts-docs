@@ -243,6 +243,12 @@
         },
         "快捷渲染热力图。": {
             "en-us": "Quickly render a heatmap chart."
+        },
+        "AntdRadar 雷达图": {
+            "en-us": "AntdRadar"
+        },
+        "快捷渲染雷达图。": {
+            "en-us": "Quickly render a radar chart."
         }
     }
 }
