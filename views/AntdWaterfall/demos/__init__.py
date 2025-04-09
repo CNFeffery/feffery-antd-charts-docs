@@ -6,6 +6,7 @@ from . import (
     custom_total,  # noqa: F401
     custom_label,  # noqa: F401
     absolute_value_label,  # noqa: F401
+    complex_custom_waterfall,  # noqa: F401
 )
 from components import demos_render
 
@@ -35,6 +36,11 @@ def demos_config() -> list:
             'path': 'absolute_value_label',
             'title': '绝对值数值标签',
             'description': "设置参数`labelMode='absolute'`开启绝对值数值标签显示模式。",
+        },
+        {
+            'path': 'complex_custom_waterfall',
+            'title': '复杂的自定义瀑布图',
+            'description': '一个复杂的自定义瀑布图案例。',
         },
     ]
 
