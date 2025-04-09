@@ -3,6 +3,7 @@ from dash.dependencies import Component
 
 from . import (
     basic_usage,  # noqa: F401
+    custom_total,  # noqa: F401
 )
 from components import demos_render
 
@@ -17,6 +18,11 @@ def demos_config() -> list:
             'path': 'basic_usage',
             'title': t('基础使用'),
             'description': '最基础的瀑布图。',
+        },
+        {
+            'path': 'custom_total',
+            'title': '自定义总计值显示',
+            'description': '通过参数`total`自定义总计值显示。',
         },
     ]
 
