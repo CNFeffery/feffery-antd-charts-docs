@@ -5,6 +5,7 @@ from . import (
     basic_usage,  # noqa: F401
     custom_total,  # noqa: F401
     custom_label,  # noqa: F401
+    absolute_value_label,  # noqa: F401
 )
 from components import demos_render
 
@@ -29,6 +30,11 @@ def demos_config() -> list:
             'path': 'custom_label',
             'title': '自定义数值标签',
             'description': '基于参数`label`、`meta`自定义配置数值标签显示。',
+        },
+        {
+            'path': 'absolute_value_label',
+            'title': '绝对值数值标签',
+            'description': "设置参数`labelMode='absolute'`开启绝对值数值标签显示模式。",
         },
     ]
 
