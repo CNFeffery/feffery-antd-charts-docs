@@ -315,6 +315,17 @@ class AppConfig:
                                     'href': '/AntdRadar',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdWaterfall',
+                                    'name': '/AntdWaterfall',
+                                    'title': translator.t(
+                                        'AntdWaterfall 瀑布图'
+                                    ),
+                                    'href': '/AntdWaterfall',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -363,6 +374,7 @@ class AppConfig:
         '/AntdRose': ['统计图表'],
         '/AntdHeatmap': ['统计图表'],
         '/AntdRadar': ['统计图表'],
+        '/AntdWaterfall': ['统计图表'],
     }
 
 
