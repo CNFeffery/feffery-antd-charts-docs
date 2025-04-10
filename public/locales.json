@@ -255,6 +255,12 @@
         },
         "快捷渲染瀑布图。": {
             "en-us": "Quickly render a waterfall chart."
+        },
+        "AntdBidirectionalBar 对称条形图": {
+            "en-us": "AntdBidirectionalBar"
+        },
+        "快捷渲染对称条形图。": {
+            "en-us": "Quickly render a bidirectional bar chart."
         }
     }
 }

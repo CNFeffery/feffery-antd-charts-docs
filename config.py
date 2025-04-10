@@ -326,6 +326,17 @@ class AppConfig:
                                     'href': '/AntdWaterfall',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdBidirectionalBar',
+                                    'name': '/AntdBidirectionalBar',
+                                    'title': translator.t(
+                                        'AntdBidirectionalBar 对称条形图'
+                                    ),
+                                    'href': '/AntdBidirectionalBar',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -375,6 +386,7 @@ class AppConfig:
         '/AntdHeatmap': ['统计图表'],
         '/AntdRadar': ['统计图表'],
         '/AntdWaterfall': ['统计图表'],
+        '/AntdBidirectionalBar': ['统计图表'],
     }
 
 

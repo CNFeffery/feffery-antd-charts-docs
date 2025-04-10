@@ -22,4 +22,5 @@ from . import (
     AntdHeatmap,  # noqa: F401
     AntdRadar,  # noqa: F401
     AntdWaterfall,  # noqa: F401
+    AntdBidirectionalBar,  # noqa: F401
 )
