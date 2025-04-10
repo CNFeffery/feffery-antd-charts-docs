@@ -3,6 +3,7 @@ from dash.dependencies import Component
 
 from . import (
     basic_usage,  # noqa: F401
+    vertical_layout,  # noqa: F401
 )
 from components import demos_render
 
@@ -17,6 +18,11 @@ def demos_config() -> list:
             'path': 'basic_usage',
             'title': t('基础使用'),
             'description': '最基础的对称条形图。',
+        },
+        {
+            'path': 'vertical_layout',
+            'title': '垂直布局',
+            'description': "设置参数`layout='vertical'`开启垂直布局。",
         },
     ]
 
