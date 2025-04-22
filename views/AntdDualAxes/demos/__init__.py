@@ -7,6 +7,7 @@ from . import (
     dual_line_style,  # noqa: F401
     dual_line_step,  # noqa: F401
     multi_line_and_column,  # noqa: F401
+    line_and_multi_column,  # noqa: F401
 )
 from components import demos_render
 
@@ -41,6 +42,11 @@ def demos_config() -> list:
             'path': 'multi_line_and_column',
             'title': '多折线+柱体混合双轴图',
             'description': '多折线+柱体混合双轴图。',
+        },
+        {
+            'path': 'line_and_multi_column',
+            'title': '折线+多柱体混合双轴图',
+            'description': '折线+多柱体混合双轴图。',
         },
     ]
 
