@@ -6,6 +6,7 @@ from . import (
     color,  # noqa: F401
     size_range,  # noqa: F401
     image_mask,  # noqa: F401
+    color_field,  # noqa: F401
 )
 from components import demos_render
 
@@ -35,6 +36,11 @@ def demos_config() -> list:
             'path': 'image_mask',
             'title': '自定义图片遮罩',
             'description': '通过参数`imageMask`自定义图片遮罩。',
+        },
+        {
+            'path': 'color_field',
+            'title': '使用颜色映射字段',
+            'description': '通过参数`colorField`声明颜色映射字段。',
         },
     ]
 
