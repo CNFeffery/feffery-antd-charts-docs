@@ -337,6 +337,17 @@ class AppConfig:
                                     'href': '/AntdBidirectionalBar',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdWordCloud',
+                                    'name': '/AntdWordCloud',
+                                    'title': translator.t(
+                                        'AntdWordCloud 词云图'
+                                    ),
+                                    'href': '/AntdWordCloud',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -387,6 +398,7 @@ class AppConfig:
         '/AntdRadar': ['统计图表'],
         '/AntdWaterfall': ['统计图表'],
         '/AntdBidirectionalBar': ['统计图表'],
+        '/AntdWordCloud': ['统计图表'],
     }
 
 

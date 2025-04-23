@@ -261,6 +261,12 @@
         },
         "快捷渲染对称条形图。": {
             "en-us": "Quickly render a bidirectional bar chart."
+        },
+        "AntdWordCloud 词云图": {
+            "en-us": "AntdWordCloud"
+        },
+        "快捷渲染词云图。": {
+            "en-us": "Quickly render a word cloud chart."
         }
     }
 }

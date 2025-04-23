@@ -23,4 +23,5 @@ from . import (
     AntdRadar,  # noqa: F401
     AntdWaterfall,  # noqa: F401
     AntdBidirectionalBar,  # noqa: F401
+    AntdWordCloud,  # noqa: F401
 )
