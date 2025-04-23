@@ -7,6 +7,7 @@ from . import (
     size_range,  # noqa: F401
     image_mask,  # noqa: F401
     color_field,  # noqa: F401
+    multi_class_legend,  # noqa: F401
 )
 from components import demos_render
 
@@ -41,6 +42,11 @@ def demos_config() -> list:
             'path': 'color_field',
             'title': '使用颜色映射字段',
             'description': '通过参数`colorField`声明颜色映射字段。',
+        },
+        {
+            'path': 'multi_class_legend',
+            'title': '多类别图例',
+            'description': '具有多类别图例的词云图。',
         },
     ]
 
