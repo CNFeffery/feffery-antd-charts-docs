@@ -3,6 +3,7 @@ from dash.dependencies import Component
 
 from . import (
     basic_usage,  # noqa: F401
+    color,  # noqa: F401
 )
 from components import demos_render
 
@@ -17,6 +18,11 @@ def demos_config() -> list:
             'path': 'basic_usage',
             'title': t('基础使用'),
             'description': '最基础的词云图。',
+        },
+        {
+            'path': 'color',
+            'title': '自定义颜色',
+            'description': '通过参数`color`自定义词语颜色。',
         },
     ]
 
