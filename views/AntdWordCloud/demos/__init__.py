@@ -5,6 +5,7 @@ from . import (
     basic_usage,  # noqa: F401
     color,  # noqa: F401
     size_range,  # noqa: F401
+    image_mask,  # noqa: F401
 )
 from components import demos_render
 
@@ -29,6 +30,11 @@ def demos_config() -> list:
             'path': 'size_range',
             'title': '自定义尺寸范围',
             'description': '通过参数`wordStyle`自定义尺寸范围。',
+        },
+        {
+            'path': 'image_mask',
+            'title': '自定义图片遮罩',
+            'description': '通过参数`imageMask`自定义图片遮罩。',
         },
     ]
 
