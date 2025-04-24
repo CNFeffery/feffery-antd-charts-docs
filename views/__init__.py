@@ -24,4 +24,5 @@ from . import (
     AntdWaterfall,  # noqa: F401
     AntdBidirectionalBar,  # noqa: F401
     AntdWordCloud,  # noqa: F401
+    AntdTreemap,  # noqa: F401
 )

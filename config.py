@@ -348,6 +348,17 @@ class AppConfig:
                                     'href': '/AntdWordCloud',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdTreemap',
+                                    'name': '/AntdTreemap',
+                                    'title': translator.t(
+                                        'AntdTreemap 矩形树图'
+                                    ),
+                                    'href': '/AntdTreemap',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -399,6 +410,7 @@ class AppConfig:
         '/AntdWaterfall': ['统计图表'],
         '/AntdBidirectionalBar': ['统计图表'],
         '/AntdWordCloud': ['统计图表'],
+        '/AntdTreemap': ['统计图表'],
     }
 
 
