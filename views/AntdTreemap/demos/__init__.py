@@ -5,6 +5,7 @@ from . import (
     basic_usage,  # noqa: F401
     nested,  # noqa: F401
     drilldown,  # noqa: F401
+    add_interactions,  # noqa: F401
 )
 from components import demos_render
 
@@ -29,6 +30,11 @@ def demos_config() -> list:
             'path': 'drilldown',
             'title': '矩形树图下钻功能',
             'description': '基于`drilldown`参数，为矩形树图开启下钻功能。',
+        },
+        {
+            'path': 'add_interactions',
+            'title': '添加更多交互功能',
+            'description': '基于`interactions`参数，为矩形树图开启鼠标平移、滚轮缩放等交互功能。',
         },
     ]
 
