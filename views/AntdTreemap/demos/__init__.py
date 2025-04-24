@@ -4,6 +4,7 @@ from dash.dependencies import Component
 from . import (
     basic_usage,  # noqa: F401
     nested,  # noqa: F401
+    drilldown,  # noqa: F401
 )
 from components import demos_render
 
@@ -23,6 +24,11 @@ def demos_config() -> list:
             'path': 'nested',
             'title': '嵌套矩形树图',
             'description': '嵌套形式展示矩形树图。',
+        },
+        {
+            'path': 'drilldown',
+            'title': '矩形树图下钻功能',
+            'description': '基于`drilldown`参数，为矩形树图开启下钻功能。',
         },
     ]
 
