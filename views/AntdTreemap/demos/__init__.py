@@ -3,6 +3,7 @@ from dash.dependencies import Component
 
 from . import (
     basic_usage,  # noqa: F401
+    nested,  # noqa: F401
 )
 from components import demos_render
 
@@ -17,6 +18,11 @@ def demos_config() -> list:
             'path': 'basic_usage',
             'title': t('基础使用'),
             'description': '最基础的矩形树图。',
+        },
+        {
+            'path': 'nested',
+            'title': '嵌套矩形树图',
+            'description': '嵌套形式展示矩形树图。',
         },
     ]
 
