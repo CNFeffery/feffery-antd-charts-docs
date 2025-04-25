@@ -122,6 +122,10 @@ def generate_component_props(component_props: List[dict]) -> str:
                 raw_markdown = DocsConfig.props_descriptions['zh-cn'][
                     item.get('source') or item.get('name')
                 ]
+                # 若当前项文档内容存在需要替换的内容
+                if item.get('replacements'):
+                    for origin, replacement in item['replacements'].items():
+                        raw_markdown = raw_markdown.replace(origin, replacement)
             else:
                 print(item['name'])
             items.append(
