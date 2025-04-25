@@ -3,6 +3,7 @@ from dash.dependencies import Component
 
 from . import (
     basic_usage,  # noqa: F401
+    bin_number,  # noqa: F401
 )
 from components import demos_render
 
@@ -17,6 +18,11 @@ def demos_config() -> list:
             'path': 'basic_usage',
             'title': t('基础使用'),
             'description': '最基础的直方图。',
+        },
+        {
+            'path': 'bin_number',
+            'title': '自定义分箱数',
+            'description': '通过参数`binNumber`自定义分箱数。',
         },
     ]
 
