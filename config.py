@@ -359,6 +359,17 @@ class AppConfig:
                                     'href': '/AntdTreemap',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdHistogram',
+                                    'name': '/AntdHistogram',
+                                    'title': translator.t(
+                                        'AntdHistogram 直方图'
+                                    ),
+                                    'href': '/AntdHistogram',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -411,6 +422,7 @@ class AppConfig:
         '/AntdBidirectionalBar': ['统计图表'],
         '/AntdWordCloud': ['统计图表'],
         '/AntdTreemap': ['统计图表'],
+        '/AntdHistogram': ['统计图表'],
     }
 
 

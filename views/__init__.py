@@ -25,4 +25,5 @@ from . import (
     AntdBidirectionalBar,  # noqa: F401
     AntdWordCloud,  # noqa: F401
     AntdTreemap,  # noqa: F401
+    AntdHistogram,  # noqa: F401
 )

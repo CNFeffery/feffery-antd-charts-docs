@@ -273,6 +273,12 @@
         },
         "快捷渲染矩形树图。": {
             "en-us": "Quickly render a treemap chart."
+        },
+        "AntdHistogram 直方图": {
+            "en-us": "AntdHistogram"
+        },
+        "快捷渲染直方图。": {
+            "en-us": "Quickly render a histogram chart."
         }
     }
 }
