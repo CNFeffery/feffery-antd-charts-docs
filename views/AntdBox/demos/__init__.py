@@ -4,6 +4,7 @@ from dash.dependencies import Component
 from . import (
     basic_usage,  # noqa: F401
     custom_style,  # noqa: F401
+    group,  # noqa: F401
 )
 from components import demos_render
 
@@ -23,6 +24,11 @@ def demos_config() -> list:
             'path': 'custom_style',
             'title': '自定义样式',
             'description': '通过参数`boxStyle`对箱线图样式进行自定义。',
+        },
+        {
+            'path': 'group',
+            'title': '分组箱线图',
+            'description': '通过参数`groupField`展示分组箱线图。',
         },
     ]
 
