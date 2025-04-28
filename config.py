@@ -370,6 +370,15 @@ class AppConfig:
                                     'href': '/AntdHistogram',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdBox',
+                                    'name': '/AntdBox',
+                                    'title': translator.t('AntdBox 箱线图'),
+                                    'href': '/AntdBox',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -423,6 +432,7 @@ class AppConfig:
         '/AntdWordCloud': ['统计图表'],
         '/AntdTreemap': ['统计图表'],
         '/AntdHistogram': ['统计图表'],
+        '/AntdBox': ['统计图表'],
     }
 
 

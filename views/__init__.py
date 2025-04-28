@@ -26,4 +26,5 @@ from . import (
     AntdWordCloud,  # noqa: F401
     AntdTreemap,  # noqa: F401
     AntdHistogram,  # noqa: F401
+    AntdBox,  # noqa: F401
 )

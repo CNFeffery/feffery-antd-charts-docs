@@ -279,6 +279,12 @@
         },
         "快捷渲染直方图。": {
             "en-us": "Quickly render a histogram chart."
+        },
+        "AntdBox 箱线图": {
+            "en-us": "AntdBox"
+        },
+        "快捷渲染箱线图。": {
+            "en-us": "Quickly render a box chart."
         }
     }
 }
