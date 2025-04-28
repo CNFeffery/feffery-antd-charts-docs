@@ -6,6 +6,7 @@ from . import (
     custom_style,  # noqa: F401
     group,  # noqa: F401
     outliers,  # noqa: F401
+    meta_alias,  # noqa: F401
 )
 from components import demos_render
 
@@ -35,6 +36,11 @@ def demos_config() -> list:
             'path': 'outliers',
             'title': '展示离群数据',
             'description': '通过参数`outliersField`指定展示箱线图中的离群异常值点。',
+        },
+        {
+            'path': 'meta_alias',
+            'title': '自定义字段别名',
+            'description': '通过参数`meta`自定义字段展示时的别名。',
         },
     ]
 
