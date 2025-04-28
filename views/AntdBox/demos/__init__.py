@@ -5,6 +5,7 @@ from . import (
     basic_usage,  # noqa: F401
     custom_style,  # noqa: F401
     group,  # noqa: F401
+    outliers,  # noqa: F401
 )
 from components import demos_render
 
@@ -29,6 +30,11 @@ def demos_config() -> list:
             'path': 'group',
             'title': '分组箱线图',
             'description': '通过参数`groupField`展示分组箱线图。',
+        },
+        {
+            'path': 'outliers',
+            'title': '展示离群数据',
+            'description': '通过参数`outliersField`指定展示箱线图中的离群异常值点。',
         },
     ]
 
