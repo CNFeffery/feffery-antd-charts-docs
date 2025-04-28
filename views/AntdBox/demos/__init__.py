@@ -3,6 +3,7 @@ from dash.dependencies import Component
 
 from . import (
     basic_usage,  # noqa: F401
+    custom_style,  # noqa: F401
 )
 from components import demos_render
 
@@ -17,6 +18,11 @@ def demos_config() -> list:
             'path': 'basic_usage',
             'title': t('基础使用'),
             'description': '最基础的箱线图。',
+        },
+        {
+            'path': 'custom_style',
+            'title': '自定义样式',
+            'description': '通过参数`boxStyle`对箱线图样式进行自定义。',
         },
     ]
 
