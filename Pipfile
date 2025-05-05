@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dash = "==2.18.2"
+feffery-antd-charts = "==0.1.5"
+feffery-antd-components = ">=0.3.13"
+feffery-dash-utils = ">=0.1.5"
+feffery-markdown-components = ">=0.3.0"
+feffery-utils-components = "==0.2.0rc27"
+mistune = "==3.0.2"
+requests = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
