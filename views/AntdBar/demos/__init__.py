@@ -12,7 +12,10 @@ from . import (
     group,  # noqa: F401
     percent,  # noqa: F401
     range_bar,  # noqa: F401
+<<<<<<< HEAD
     df_stack,  # noqa: F401
+=======
+>>>>>>> 696c4af4596a95255cfc82f2390f6628fb78d061
 )
 from components import demos_render
 
@@ -73,11 +76,14 @@ def demos_config() -> list:
             'title': '区间条形图',
             'description': '渲染区间形式的条形图。',
         },
+<<<<<<< HEAD
         {
             'path': 'df_stack',
             'title': 'DataFrame数据格式的堆叠条形图',
             'description': '原数据采用常用的DataFrame格式，展示多系列数据的堆叠条形图。',
         },
+=======
+>>>>>>> 696c4af4596a95255cfc82f2390f6628fb78d061
     ]
 
 
