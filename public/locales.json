@@ -1,0 +1,290 @@
+{
+    "root_locale": "zh-cn",
+    "contents": {
+        "演示示例不存在，": {
+            "en-us": "This demo does not exist, "
+        },
+        "回到首页": {
+            "en-us": "back to home"
+        },
+        "当前文档网站尚未正式发布，相关文档持续补充建设中。（最近更新时间：{}）": {
+            "en-us": "The documentation site is not yet released. (Latest update time: {})"
+        },
+        "您访问的页面不存在或还在建设中": {
+            "en-us": "The page you visited does not exist or is still under construction"
+        },
+        "问题反馈": {
+            "en-us": "Bug report"
+        },
+        "输入你想要搜索的组件...": {
+            "en-us": "Input the component you want to search..."
+        },
+        "唤出搜索面板": {
+            "en-us": "Open the search panel"
+        },
+        "English / 中文": {
+            "en-us": "中文 / English"
+        },
+        "快速入门": {
+            "en-us": "Quick start"
+        },
+        "fact是什么": {
+            "en-us": "What is fact"
+        },
+        "feffery-antd-charts: Dash数据可视化组件库": {
+            "en-us": "feffery-antd-charts: Dash data visualization component library"
+        },
+        "文档最近更新：": {
+            "en-us": "Latest update: "
+        },
+        "特性": {
+            "en-us": "Features"
+        },
+        "📊 功能丰富，覆盖常见种类数据可视化图表。": {
+            "en-us": "📊 Rich in features, covering common data visualization chart types."
+        },
+        "😋 使用简单，功能参数直观明了": {
+            "en-us": "😋 Simple to use, clear and direct function parameters"
+        },
+        "⚡ 迭代迅速，持续维护更新组件功能": {
+            "en-us": "⚡ Rapid iteration, continuous maintenance and updating component functions"
+        },
+        "版本": {
+            "en-us": "Version"
+        },
+        "pypi最新稳定版本：": {
+            "en-us": "pypi latest stable version: "
+        },
+        "安装": {
+            "en-us": "Installation"
+        },
+        "最新稳定版本：": {
+            "en-us": "Latest stable version: "
+        },
+        "最新预发布版本：": {
+            "en-us": "Latest pre-release version: "
+        },
+        "简介": {
+            "en-us": "Introduction"
+        },
+        "组件介绍": {
+            "en-us": "Components introduction"
+        },
+        "统计图表": {
+            "en-us": "Statistics charts"
+        },
+        "特殊参数说明": {
+            "en-us": "Special parameters"
+        },
+        "样式配置项": {
+            "en-us": "Style configuration items"
+        },
+        "在Github上编辑此示例": {
+            "en-us": "Edit this example on Github"
+        },
+        "在新窗口打开": {
+            "en-us": "Open in new window"
+        },
+        "展开/收起代码": {
+            "en-us": "Expand/collapse code"
+        },
+        "在Github中查看完整代码": {
+            "en-us": "View the complete code on Github"
+        },
+        "在Gitee中查看完整代码": {
+            "en-us": "View the complete code on Gitee"
+        },
+        "当页文档贡献者": {
+            "en-us": "Contributors of this page"
+        },
+        "更多组件库": {
+            "en-us": "More component libraries"
+        },
+        "fac: 通用组件库": {
+            "en-us": "fac: General component library"
+        },
+        "fuc: 实用工具组件库": {
+            "en-us": "fuc: Useful utils components library"
+        },
+        "fmc: markdown渲染组件库": {
+            "en-us": "fmc: Markdown rendering component library"
+        },
+        "API参数说明": {
+            "en-us": "API"
+        },
+        "请输入搜索关键词": {
+            "en-us": "Please enter the search keyword"
+        },
+        "AntdLine 折线图": {
+            "en-us": "AntdLine"
+        },
+        "快捷渲染折线图。": {
+            "en-us": "Quickly render a line chart."
+        },
+        "AntdArea 面积图": {
+            "en-us": "AntdArea"
+        },
+        "快捷渲染面积图。": {
+            "en-us": "Quickly render a area chart."
+        },
+        "AntdColumn 柱状图": {
+            "en-us": "AntdColumn"
+        },
+        "快捷渲染柱状图。": {
+            "en-us": "Quickly render a column chart."
+        },
+        "AntdBar 条形图": {
+            "en-us": "AntdBar"
+        },
+        "快捷渲染条形图。": {
+            "en-us": "Quickly render a bar chart."
+        },
+        "AntdPie 饼图": {
+            "en-us": "AntdPie"
+        },
+        "快捷渲染饼图。": {
+            "en-us": "Quickly render a pie chart."
+        },
+        "AntdDualAxes 双轴图": {
+            "en-us": "AntdDualAxes"
+        },
+        "快捷渲染双轴图。": {
+            "en-us": "Quickly render a dual axis chart."
+        },
+        "迷你图": {
+            "en-us": "Tiny chart"
+        },
+        "AntdTinyLine 迷你折线图": {
+            "en-us": "AntdTinyLine"
+        },
+        "快捷渲染迷你折线图。": {
+            "en-us": "Quickly render a tiny line chart."
+        },
+        "AntdTinyArea 迷你面积图": {
+            "en-us": "AntdTinyArea"
+        },
+        "快捷渲染迷你面积图。": {
+            "en-us": "Quickly render a tiny area chart."
+        },
+        "AntdTinyColumn 迷你柱状图": {
+            "en-us": "AntdTinyColumn"
+        },
+        "快捷渲染迷你柱状图。": {
+            "en-us": "Quickly render a tiny column chart."
+        },
+        "AntdProgress 进度条图": {
+            "en-us": "AntdProgress"
+        },
+        "快捷渲染进度条图。": {
+            "en-us": "Quickly render a progress bar chart."
+        },
+        "AntdRingProgress 进度环图": {
+            "en-us": "AntdRingProgress"
+        },
+        "快捷渲染进度环图。": {
+            "en-us": "Quickly render a progress ring chart."
+        },
+        "AntdStock 股票图": {
+            "en-us": "AntdStock"
+        },
+        "快捷渲染股票图。": {
+            "en-us": "Quickly render a stock chart."
+        },
+        "AntdFunnel 漏斗图": {
+            "en-us": "AntdFunnel"
+        },
+        "快捷渲染漏斗图。": {
+            "en-us": "Quickly render a funnel chart."
+        },
+        "AntdSankey 桑基图": {
+            "en-us": "AntdSankey"
+        },
+        "快捷渲染桑基图。": {
+            "en-us": "Quickly render a sankey chart."
+        },
+        "AntdChord 和弦图": {
+            "en-us": "AntdChord"
+        },
+        "快捷渲染和弦图。": {
+            "en-us": "Quickly render a chord chart."
+        },
+        "AntdGauge 仪表盘": {
+            "en-us": "AntdGauge"
+        },
+        "快捷渲染仪表盘。": {
+            "en-us": "Quickly render a gauge chart."
+        },
+        "AntdLiquid 水波图": {
+            "en-us": "AntdLiquid"
+        },
+        "快捷渲染水波图。": {
+            "en-us": "Quickly render a liquid chart."
+        },
+        "AntdBullet 子弹图": {
+            "en-us": "AntdBullet"
+        },
+        "快捷渲染子弹图。": {
+            "en-us": "Quickly render a bullet chart."
+        },
+        "AntdScatter 散点图": {
+            "en-us": "AntdScatter"
+        },
+        "快捷渲染散点图。": {
+            "en-us": "Quickly render a scatter chart."
+        },
+        "AntdRose 风玫瑰图": {
+            "en-us": "AntdRose"
+        },
+        "快捷渲染风玫瑰图。": {
+            "en-us": "Quickly render a rose chart."
+        },
+        "AntdHeatmap 热力图": {
+            "en-us": "AntdHeatmap"
+        },
+        "快捷渲染热力图。": {
+            "en-us": "Quickly render a heatmap chart."
+        },
+        "AntdRadar 雷达图": {
+            "en-us": "AntdRadar"
+        },
+        "快捷渲染雷达图。": {
+            "en-us": "Quickly render a radar chart."
+        },
+        "AntdWaterfall 瀑布图": {
+            "en-us": "AntdWaterfall"
+        },
+        "快捷渲染瀑布图。": {
+            "en-us": "Quickly render a waterfall chart."
+        },
+        "AntdBidirectionalBar 对称条形图": {
+            "en-us": "AntdBidirectionalBar"
+        },
+        "快捷渲染对称条形图。": {
+            "en-us": "Quickly render a bidirectional bar chart."
+        },
+        "AntdWordCloud 词云图": {
+            "en-us": "AntdWordCloud"
+        },
+        "快捷渲染词云图。": {
+            "en-us": "Quickly render a word cloud chart."
+        },
+        "AntdTreemap 矩形树图": {
+            "en-us": "AntdTreemap"
+        },
+        "快捷渲染矩形树图。": {
+            "en-us": "Quickly render a treemap chart."
+        },
+        "AntdHistogram 直方图": {
+            "en-us": "AntdHistogram"
+        },
+        "快捷渲染直方图。": {
+            "en-us": "Quickly render a histogram chart."
+        },
+        "AntdBox 箱线图": {
+            "en-us": "AntdBox"
+        },
+        "快捷渲染箱线图。": {
+            "en-us": "Quickly render a box chart."
+        }
+    }
+}
