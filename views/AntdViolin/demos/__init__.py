@@ -7,6 +7,7 @@ from . import (
     shape_smooth,  # noqa: F401
     shape_hollow,  # noqa: F401
     shape_hollow_smooth,  # noqa: F401
+    custom_tooltip,  # noqa: F401
 )
 from components import demos_render
 
@@ -44,6 +45,11 @@ def demos_config() -> list:
             'title': 'hollow-smooth类型',
             'description': "设置参数`shape='hollow-smooth'`时的效果。",
             'group': '小提琴形状类型',
+        },
+        {
+            'path': 'custom_tooltip',
+            'title': '自定义tooltip',
+            'description': '基于参数`tooltip`、`meta`，实现自定义tooltip相关字段文案。',
         },
     ]
 
