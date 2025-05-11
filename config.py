@@ -379,6 +379,17 @@ class AppConfig:
                                     'href': '/AntdBox',
                                 },
                             },
+                            {
+                                'component': 'Item',
+                                'props': {
+                                    'key': '/AntdViolin',
+                                    'name': '/AntdViolin',
+                                    'title': translator.t(
+                                        'AntdViolin 小提琴图'
+                                    ),
+                                    'href': '/AntdViolin',
+                                },
+                            },
                         ],
                     },
                 ],
@@ -433,6 +444,7 @@ class AppConfig:
         '/AntdTreemap': ['统计图表'],
         '/AntdHistogram': ['统计图表'],
         '/AntdBox': ['统计图表'],
+        '/AntdViolin': ['统计图表'],
     }
 
 

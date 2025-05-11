@@ -27,4 +27,5 @@ from . import (
     AntdTreemap,  # noqa: F401
     AntdHistogram,  # noqa: F401
     AntdBox,  # noqa: F401
+    AntdViolin,  # noqa: F401
 )

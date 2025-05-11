@@ -285,6 +285,12 @@
         },
         "快捷渲染箱线图。": {
             "en-us": "Quickly render a box chart."
+        },
+        "AntdViolin 小提琴图": {
+            "en-us": "AntdViolin"
+        },
+        "快捷渲染小提琴图。": {
+            "en-us": "Quickly render a violin chart."
         }
     }
 }
