@@ -4,6 +4,7 @@ from dash.dependencies import Component
 from . import (
     basic_usage,  # noqa: F401
     series,  # noqa: F401
+    shape_smooth,  # noqa: F401
 )
 from components import demos_render
 
@@ -23,6 +24,12 @@ def demos_config() -> list:
             'path': 'series',
             'title': '分组小提琴图',
             'description': '针对多系列数据，通过参数`seriesField`设置分组字段。',
+        },
+        {
+            'path': 'shape_smooth',
+            'title': 'smooth类型',
+            'description': "设置参数`shape='smooth'`时的效果。",
+            'group': '小提琴形状类型',
         },
     ]
 
