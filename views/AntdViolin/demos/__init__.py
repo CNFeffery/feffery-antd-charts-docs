@@ -6,6 +6,7 @@ from . import (
     series,  # noqa: F401
     shape_smooth,  # noqa: F401
     shape_hollow,  # noqa: F401
+    shape_hollow_smooth,  # noqa: F401
 )
 from components import demos_render
 
@@ -36,6 +37,12 @@ def demos_config() -> list:
             'path': 'shape_hollow',
             'title': 'hollow类型',
             'description': "设置参数`shape='hollow'`时的效果。",
+            'group': '小提琴形状类型',
+        },
+        {
+            'path': 'shape_hollow_smooth',
+            'title': 'hollow-smooth类型',
+            'description': "设置参数`shape='hollow-smooth'`时的效果。",
             'group': '小提琴形状类型',
         },
     ]
