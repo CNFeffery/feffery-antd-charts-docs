@@ -10,6 +10,7 @@ from . import (
     step,  # noqa: F401
     color,  # noqa: F401
     color_series,  # noqa: F401
+    df_color_series,  # noqa: F401
 )
 from components import demos_render
 
@@ -60,6 +61,12 @@ def demos_config() -> list:
             'path': 'color_series',
             'title': '分组折线',
             'description': '通过参数`color`自定义分组折线颜色。',
+            'group': '自定义颜色',
+        },
+        {
+            'path': 'df_color_series',
+            'title': 'DataFrame数据格式的分组折线图',
+            'description': '原数据为DataFrame格式时，通过参数`color`自定义分组折线颜色。',
             'group': '自定义颜色',
         },
     ]
