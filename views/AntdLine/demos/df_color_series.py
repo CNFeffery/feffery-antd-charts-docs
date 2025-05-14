@@ -75,12 +75,12 @@ chart_data = [
 
 # 3. 设置图表布局
 fact.AntdLine(
-        data=chart_data,
-        xField="date",
-        yField="y",
-        seriesField="type",
-        color=["#ff4444", "#99bb33", "#ffbb55"],
-    )
+    data=chart_data,
+    xField="date",
+    yField="y",
+    seriesField="type",
+    color=["#ff4444", "#99bb33", "#ffbb55"],
+)
 """
         }
     ]
