@@ -3,7 +3,21 @@
         "CNFeffery": {
             "url": "https://github.com/CNFeffery",
             "avatar": "https://avatars.githubusercontent.com/u/49147660?s=40&v=4"
+        },
+        "Riggle001": {
+            "url": "https://github.com/Riggle001",
+            "avatar": "https://avatars.githubusercontent.com/u/39793169?s=40&v=4"
         }
     },
-    "components": {}
+    "components": {
+        "AntdArea": [
+            "Riggle001"
+        ],
+        "AntdLine": [
+            "Riggle001"
+        ],
+        "AntdBar": [
+            "Riggle001"
+        ]
+    }
 }
