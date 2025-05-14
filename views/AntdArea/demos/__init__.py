@@ -7,6 +7,7 @@ from . import (
     slider,  # noqa: F401
     stack,  # noqa: F401
     percent,  # noqa: F401
+    df_stack,  # noqa: F401
 )
 from components import demos_render
 
@@ -41,6 +42,11 @@ def demos_config() -> list:
             'path': 'percent',
             'title': '百分比面积图',
             'description': '针对多系列数据，设置`isPercent=True`启用百分比面积图。',
+        },
+        {
+            'path': 'df_stack',
+            'title': 'DataFrame 堆积面积图',
+            'description': '针对多系列数据，利用常用的DataFrame格式数据，展示堆叠效果。',
         },
     ]
 
