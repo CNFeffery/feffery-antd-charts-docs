@@ -130,6 +130,7 @@ def render() -> Component:
                     {'name': 'recentlyTooltipChangeRecord'},
                     {'name': 'recentlyColumnClickRecord'},
                     {'name': 'recentlyLegendInfo'},
+                    {'name': 'recentlySliderRange'},
                 ],
             },
         ],

@@ -94,6 +94,7 @@ def render() -> Component:
                 'name': '事件监听属性',
                 'props': [
                     {'name': 'recentlyClickRecord'},
+                    {'name': 'recentlySliderRange'},
                 ],
             },
         ],

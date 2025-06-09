@@ -107,7 +107,6 @@ def render() -> Component:
                 'name': 'annotations',
                 'description': '标注配置参数',
             },
-            {'type': 'prop', 'name': 'slider', 'description': '缩略轴配置参数'},
             {
                 'type': 'prop',
                 'name': 'animation',

@@ -106,6 +106,7 @@ def render() -> Component:
                 'props': [
                     {'name': 'recentlyTooltipChangeRecord'},
                     {'name': 'recentlyColumnClickRecord'},
+                    {'name': 'recentlySliderRange'},
                 ],
             },
         ],
