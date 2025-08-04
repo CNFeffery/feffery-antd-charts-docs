@@ -133,5 +133,12 @@ def render() -> Component:
                     {'name': 'recentlySliderRange'},
                 ],
             },
+            {
+                'type': 'props',
+                'name': '图表动作参数',
+                'props': [
+                    {'name': 'action'},
+                ],
+            },
         ],
     )

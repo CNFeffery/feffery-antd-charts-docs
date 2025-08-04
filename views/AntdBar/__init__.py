@@ -131,5 +131,12 @@ def render() -> Component:
                     {'name': 'recentlyLegendInfo'},
                 ],
             },
+            {
+                'type': 'props',
+                'name': '图表动作参数',
+                'props': [
+                    {'name': 'action'},
+                ],
+            },
         ],
     )
