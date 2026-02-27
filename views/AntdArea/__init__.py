@@ -42,7 +42,7 @@ def render() -> Component:
                     {'name': 'seriesField'},
                     {'name': 'isPercent'},
                     {'name': 'smooth'},
-                    {'name': 'isStack'},
+                    {'name': 'isStack', 'source': 'area-isStack'},
                     {'name': 'startOnZero'},
                 ],
             },
